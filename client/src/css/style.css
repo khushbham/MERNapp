@@ -1,0 +1,282 @@
+@font-face {
+font-family: 'Rubik Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Rubik Regular'), url('../fonts/Rubik-Regular.woff') format('woff');
+}
+@font-face {
+font-family: 'Rubik Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Rubik Bold'), url('../fonts/Rubik-Bold.woff') format('woff');
+}
+@font-face {
+font-family: 'Rubik-Semibold';
+font-style: normal;
+font-weight: normal;
+src: local('Rubik-Semibold'), url('../fonts/Rubik-Semibold.woff') format('woff');
+}
+@font-face{
+font-family: 'Rubik Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Rubik Medium'), url('../fonts/Rubik-Medium.woff') format('woff');
+}
+@font-face {
+font-family: 'Rubik Extra Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Rubik Bold'), url('../fonts/Rubik-Extrabold.woff') format('woff');
+}
+i.rsdt.rsdt-sortable-icon:after {
+    content: '\21C5' !important;
+}
+body {
+background: #eee;
+}
+.sign_up_section.container .row {
+    height: 100vh;
+    align-items: center;
+}
+.wht-section h3 {
+    font-size: 20px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #82005e;
+    font-family: 'Rubik Extra Bold';
+    text-transform: uppercase;
+}
+.wht-section h2 {
+    margin: 15px 0px;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.06;
+    letter-spacing: normal;
+    font-family: 'Rubik Bold';
+}
+.wht-section p {
+    margin: 22px 25px 25px 0;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    font-family: 'Rubik Regular';
+    color: #424242;
+}
+a.log-btn {
+    padding: 15px 30px 15px 30px;
+    border-radius: 50px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0;
+    background: #f62f8a;
+    border:2px solid #f62f8a;
+    text-decoration: none;
+    color: #fff;
+    text-align:center;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Rubik Medium';
+    margin-right: 10px;
+}
+a.sign-btn {
+    padding: 15px 30px 15px 30px;
+    border-radius: 50px;
+    text-align:center;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0;
+    border: 2px solid #f62f8a;
+    text-decoration: none;
+    color: #f62f8a;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Rubik Medium';
+}
+.cont-txt {
+    margin-top: 35px;
+}
+a.Or-continue {
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #424242 !important;
+    text-decoration: none;
+    font-family: 'Rubik Regular';
+}
+.wht-section {
+    border-radius: 36px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%);
+    background: #fff;
+    padding: 50px 40px;
+}
+a.log-btn:hover {
+    border: 2px solid #f62f8a;
+    background: #fff !important;
+    color: #f62f8a;
+}
+a.sign-btn:hover {
+    border: 2px solid #f62f8a;
+    background: #f62f8a !important;
+    color: #fff;
+}
+.reg_section.container .row {
+    min-height: 100vh;
+    align-items: center;
+}
+
+ul.reg-tab li a {
+    border-top: 0 !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+}
+ul.reg-tab li a.active {
+    color: #f62f8a !important;
+    border-bottom: 2px solid #f62f8a !important;
+}
+ul.reg-tab li a.nav-link {
+    color: #b2b2b2;
+    border-bottom: 2px solid #b2b2b2;
+}
+ul.reg-tab li a {
+    font-size: 18px;
+    font-family: 'Rubik Regular';
+}
+.reg-cnt .input-group-text {
+    background-color: #fff;
+}
+.reg-cnt .input-group {
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%);
+    border-radius: 4px!important;
+    height: 48px;
+}
+.reg-cnt input.form-control {
+    border-left: 0px;
+}
+.reg-cnt .input-group-text svg path {
+    fill: #82005e;
+}
+span#basic-Mobile svg {
+    width: 10px;
+    height: 24px;
+}
+#password svg {
+    width: 18px !important;
+    height: 26px !important;
+}
+#confirmpassword svg {
+    width: 18px !important;
+    height: 26px !important;
+}
+a.create-btn {
+    padding: 15px 30px 15px 30px;
+    border-radius: 50px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0;
+    background: #f62f8a;
+    border: 2px solid #f62f8a;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Rubik Medium';
+}
+.reg-cnt .form-control:focus {
+    box-shadow: none !important;
+    border: 1px solid #ccc !important;
+    border-left: 0 !important;
+}
+.reg-cnt .form-check-input {
+    width: 18px;
+    height: 18px;
+}
+.reg-cnt .form-check-input:checked {
+    background-color: #82005e !important;
+    border-color: #82005e !important;
+    width: 18px;
+    height: 18px;
+}
+p.accpt-txt  {
+    color: #424242 !important;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    font-family: 'Rubik Regular' !important;
+    font-weight: 600;
+}
+p.alrdy {
+    color: #424242;
+    font-size: 14px;
+    font-family: 'Rubik Regular' !important;
+    font-weight: 600;
+}
+p.alrdy a{
+    color: #424242 !important;
+}
+p.accpt-txt a {
+    color: #424242 !important;
+}
+ul.reg-tab.nav.nav-tabs {
+    width: 100%;
+}
+ul.reg-tab.nav.nav-tabs li {
+    width: 50%;
+    text-align: center;
+}
+.reg-section {
+    border-radius: 36px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%);
+    background: #fff;
+    padding: 50px 40px;
+}
+a.create-btn:hover {
+    border: 2px solid #f62f8a;
+    background: #fff !important;
+    color: #f62f8a;
+}
+.chk-sct {
+    display: inline-flex;
+align-items: center;}
+a.forget-pass {
+    color: #424242c4 !important;
+    font-family: 'Rubik Regular' !important;
+    font-weight: 600;
+}
+.dot-account p {
+    color: #424242c4 !important;
+    font-family: 'Rubik Regular' !important;
+    font-weight: 600; 
+}
+.dot-account p a {
+    color: #424242c4 !important;
+}
+
+@media (max-width:767px){
+    a.log-btn {
+        width: 100%;
+        display: block;
+    }
+    a.sign-btn {
+        display: block;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .cont-txt {
+        text-align: center;
+        margin-top: 15px;
+    }
+    a.create-btn {
+        width: 100%;
+        display: block;
+    }
+}
+@media (max-width:500px){
+    .mobile-nav svg {
+        color: rgba(0,0,0,0.5) !important;
+    }
+}

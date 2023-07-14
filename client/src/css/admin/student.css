@@ -1,0 +1,580 @@
+.GridVal{
+    padding: 0px 5px;
+}
+.StudentInfoWrap{
+  padding:10px 0px;
+}
+.studRecord{
+    padding: 15px 10px;
+    border-radius: 8px;
+    background-color: #82005e;
+}
+.studRecord h2{
+  color:#fff;
+}
+.totalval{
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+    margin-bottom:0px;
+    margin-top: 5px;
+}
+.Circle {
+    width: 55px;
+    height: 55px;
+    box-shadow: 0 8px 8px 0 rgb(0 0 0 / 24%), 0 0 8px 0 rgb(0 0 0 / 12%);
+    background-color: #fafafa;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+.Circle svg{
+    color:#82005e;
+    font-size: 20px;
+}
+.testHeading{
+    padding:15px 0px;
+    border-bottom: 2px solid #d2d2d5;
+}
+.teacherProfile {
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%);
+}
+.UserDetails{
+  background-color:rgba(106, 113, 135, 0.1);
+  padding:10px;
+}
+.ExpertInfo {
+    border-radius: 8px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%);
+    background-color: #fff;
+    padding: 15px;
+}
+.invoice-logo {
+    background: #82005e;
+    width: 158px;
+    padding: 10px 19px;
+}
+.invoice-transactions{
+    border-collapse: unset;
+    border-spacing: 0;
+}
+.DataTable{
+    background-color:#fff;
+    padding: 0 6px 18px 6px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+    background-color: #fff;
+    
+}
+.DataTablewrap1{
+    max-height: 280px;
+    overflow: hidden;
+    height: 100%;
+    overflow-y: scroll;
+}
+.DataTablewrap1::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.DataTablewrap1::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+    border-radius: 10px;
+}
+.DataTablewrap1::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px #6a7187;
+	background-color: #555;
+}
+    label.FiledText {
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #495057;
+        margin-top: 6px;
+}
+.InputField::placeholder,
+textarea.InputField::placeholder {
+    width: 100%;
+    display: block;
+    padding: 3px 0 0;
+    color: #6a7187;
+}
+textarea.InputField:focus{
+    border:0px !important;
+}
+textarea.InputField.mt-4 {
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 1px 5px;
+}
+.InputField .MuiInput-root.MuiInput-underline.MuiInputBase-root {
+    border-radius: 4px;
+    border: solid 1px #ced4da;
+    background-color: #fff;
+    font-size: 13px;
+    padding: 3px 9px;
+}
+.css-lxb19d-MuiInputBase-root-MuiInput-root:before{
+    border-bottom:0px !important;
+}
+.teacherTesing {
+    padding: 20px 6px;
+}
+.PaymentRecords{
+    text-decoration: none;
+}
+/* chatbox */
+.chatTime{
+   font-size:13px !important;
+   color:#817474;
+}
+.userProfile {
+    border-bottom: 1px solid #dce3e5;
+    padding: 10px 0px;
+}
+.SubHeading{
+    font-size: 13px !important;
+    font-weight: normal !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color:#817474;
+    margin: 0px !important;
+}
+.userProfile{
+    justify-content: space-between;
+}
+.BtnLabel{
+    font-size:12px !important;
+    color:#6a7187;
+}
+.radioBtn label.MuiFormControlLabel-root.MuiFormControlLabel-labelPlacementEnd.css-j204z7-MuiFormControlLabel-root {
+    margin-right: 0px;
+}
+.radioBtn span.MuiTypography-root.MuiTypography-body1.MuiFormControlLabel-label.css-135qs0i-MuiTypography-root{
+    font-size: 13px !important;
+    color: #5e6263;
+}
+.UserName{
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000 !important;
+}
+.ChatHistoryWrap{
+    max-height: 300px;
+    overflow: hidden;
+    height: 100%;
+    overflow-y: scroll;
+    padding-right:10px;
+}
+.ChatHistoryWrap::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.ChatHistoryWrap::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+    border-radius: 10px;
+}
+.ChatHistoryWrap::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px #6a7187;
+	background-color: #555;
+}
+/*  */
+.buttontext{
+    background-color: #6a7187 !important; 
+    /*border-radius: 18px !important; */
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    padding: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: inherit;
+    text-transform: Capitalize;
+    font-family: Rubik Regular;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    min-width: 64px;
+    padding: 6px 16px;
+    border-radius: 50px;
+    -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: #fff !important;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+.buttontext:hover{
+    color: #fff !important;
+    text-decoration: none;
+    background-color: rgb(74, 79, 94) !important;
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+.buttontext:focus{
+color:#fff !important;
+}
+.buttontext svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.listingIcon{
+font-size:20px;
+}
+select#uncontrolled-native {
+    border-radius: 4px;
+    border: solid 1px #ced4da;
+    background: #fff;
+    padding: 9px 8px;
+    color: #929597;
+    font-size: 14px;
+    font-weight: normal;
+}
+.filterResults:after,
+.filterResults:before{
+    border-bottom:0px !important;
+}
+.calSec{
+    padding:10px;
+}
+.search--Field {
+    border-radius: 4px;
+    border: solid 1px #ced4da;
+    margin-top: 16px !important;
+    height: 36px !important;
+    padding-left: 10px;
+}
+.recent-transactions tr td p {
+    margin-bottom: 0px !important;
+}
+.fieldsWrap {
+    padding: 0px 4px !important;
+}
+.date-filter {
+    padding: 0px 5px !important;
+}
+.date-filter label{
+left:5px !important;
+}
+.date-filter input{
+    /* padding:0px !important; */
+}
+.date-filter .MuiFormControl-root.MuiTextField-root {
+    margin-top: 16px;
+}
+.date-filter .MuiOutlinedInput-root.MuiInputBase-root.MuiInputBase-colorPrimary {
+    border-radius: 4px;
+    border: solid 1px #ced4da;
+    height: 36px;
+    background: #fff;
+    padding-left: 8px;
+}
+.date-filter fieldset.MuiOutlinedInput-notchedOutline {
+    border: 0;
+}
+.financial-filter-status .MuiInput-root.MuiInput-underline:before {
+    border-bottom: 0px;
+    transition: none !important;
+}
+.financial-filter-status .MuiInput-root.MuiInput-underline:hover:not(.Mui-disabled):before{
+    border-bottom: solid 1px #ced4da;
+    transition: none !important;
+}
+.financial-filter-status .MuiInput-root.MuiInput-underline:after {
+    border-bottom: 0px;
+}
+.financial-filter-status .MuiInput-root.MuiInput-underline:hover{
+    border-bottom: 0px !important;
+}
+.ExportBtn,
+.ExportBtn:hover{
+    background: #6a7187 !important;
+    border-color: #6a7187 !important;
+    color:#fff;
+}
+.payoutHead {
+    background: #f2f2f5;
+}
+.PaginationWrap {
+    justify-content: center;
+    display: flex;
+}
+.MentorHead{
+    background-color: rgb(130, 0, 94);
+    padding: 10px;
+    display: inline-block;
+    font-size: 26px !important;
+    font-weight: 600;
+    color: #fff;
+}
+.BilingAddress p{
+    font-size: 13px !important;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.46;
+    color:#495057 !important;
+}
+.Tags-link,
+.Tags-link:hover{
+    background-color:#6a7187;
+    border-radius: 18px;
+    padding: 5px 10px;
+    color: #ffff !important;
+    text-decoration: none !important;
+}
+.filter-list::before,
+.filter-list:focus::before{
+  border-bottom:0px !important;
+}
+.filter-list::after{
+    border-bottom:0px !important;
+}
+.PaymentFilter.p-2 {
+    background: #f2f2f5;
+    padding: 32px 16px !important;
+}
+.session-payments{
+    padding:0px 18px;
+}
+.content-tags thead{
+    background: rgb(106 113 135 / 20%);
+}
+.content-tags tr td {
+    color: #495057;
+    font-size: 13px;
+    font-family: 'Rubik Regular';
+}
+.content-tags tr td {
+    vertical-align: middle;
+}
+.content-tags {
+    border-collapse: inherit;
+    border-spacing: 0;
+}
+.content-tags thead tr th span {
+    font-family: 'Rubik Regular';
+    font-size: 13px;
+    color: #495057;
+    font-weight: 500;
+}
+.content-tags {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/* 21-04-2022 */
+
+.tags-txtfld {
+    width: 100% !important;
+}
+.tags-paper {
+    background-color: rgb(106 113 135 / 20%) !important;
+}
+.tags-submit-btn {
+    width: 100%;
+}
+.tags-txtfld {
+    background: #fff;
+    padding: 2px 5px !important;
+    border: 1px solid #ccc !important;
+    border-radius: 4px;
+}
+.tags-table td {
+    font-family: 'Rubik Regular';
+}
+.tags-table td a {
+    border-bottom: 1px solid #0000004f;
+}
+.tags-txtfld .MuiInput-root.MuiInput-underline.MuiInputBase-root:before {
+    border: 0 !important;
+}
+.tags-txtfld .MuiInput-root.MuiInput-underline.MuiInputBase-root:after {
+    border: 0 !important;
+}
+.tags-slct-fld legend {
+    display: none;
+}
+.tags-slct-fld div#tags-select-label {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.tags-slct-fld {
+    width: 100%;
+    background: #fff;
+    margin-top: 15px;
+}
+.tags-slct-fld fieldset {
+    top: 0px !important;
+}
+.tags-txtfld input {
+    padding-left: 10px;
+}
+div#tags-select-label {
+    color: #999;
+}
+@media (min-width:768px){
+    .tags-popup-up .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation24.MuiDialog-paper {
+        width: 600px;
+    }
+}
+
+.top-btm {
+    align-items: center;
+}
+.row-algn-items button {
+    width: 95%;
+    margin-top: 18px;
+}
+.session-list {
+    align-items: end;
+}
+.upper-fltr{
+    align-items: end !important
+}
+.session-usr-list li {
+    align-items: center;
+}
+.table.session-list-users tr td{
+    vertical-align: middle;
+}
+
+/* 28 apr */
+.tag-frm-cntrl {
+    position: relative !important;
+    width: 100% !important;
+}
+.tag-names_tag-page {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 10px !important;
+    font-family: Rubik Regular;
+    margin-bottom: 5px !important;
+}
+.filter-page-slct .MuiFormControl-root {
+    width: 100% !important;
+}
+
+.text-right-filter {
+    text-align: right;
+}
+.date-pickr .react-date-picker__wrapper{
+    border:0px !important;
+}
+.Search_fltr{
+    width:100%;
+}
+.payout_search {
+    height: 41px !important;
+}
+.Search_fltr{
+    height: 41px !important;
+}
+.react-date-picker.react-date-picker--closed.react-date-picker--enabled.refund_date-pickr {
+    margin-top: 16px !important;
+}
+.react-date-picker.react-date-picker--closed.react-date-picker--enabled.date-pickr {
+    margin-top: 16px !important;
+}
+.react-date-picker.react-date-picker--open.react-date-picker--enabled.form-control.refund_date-pickr{
+    margin-top: 16px !important;
+}
+.react-date-picker.react-date-picker--open.react-date-picker--enabled.form-control.date-pickr{
+    margin-top: 16px !important;
+}
+.refund_date-pickr .react-date-picker__wrapper{
+    border:0px !important;
+}
+
+.status_refund_listing .MuiSelect-select{
+    padding: 10px !important;
+    background: #fff;
+}
+.refund_status label {
+    max-width: 100%;
+    transform: unset !important;
+    transform-origin: unset !important;
+    position: unset !important;
+    font-size: 11px;
+}
+.refund-invoice-transactions thead {
+    background: #6a718733;
+}
+.refund-invoice-transactions thead tr th span {
+    font-family: "Rubik Regular";
+    font-size: 13px;
+    color: #495057;
+    font-weight: 500;
+}
+.refund-invoice-transactions tbody td p {
+    font-family: 'Rubik Regular';
+    font-size: 13px;
+    color: #495057;
+}
+@media (min-width:1536px) and (max-width:1920px){
+    .main-filter-area {
+        display: block;
+    }
+    .main_one_filter {
+        width: 100% !important;
+        max-width: 100%;
+    }
+}
+
+.date-filter button.react-date-picker__clear-button.react-date-picker__button:hover .react-date-picker__button__icon {
+    stroke: #82005e !important;
+}
+.date-filter .react-date-picker__button:enabled:hover .react-date-picker__button__icon{
+    stroke: #82005e !important;
+}

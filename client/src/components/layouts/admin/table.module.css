@@ -1,0 +1,9 @@
+.table_style thead {
+  background-color: #eff2f7;
+}
+.table_style th {
+  color: #000000;
+  opacity: 0.7;
+}
+
+

@@ -1,0 +1,340 @@
+/*4dec2021*/
+.ext-h3 {
+    background: #82005e;
+    color: #fff;
+    padding: 5px 10px;
+}
+.header-back {
+    background: #82005e;
+    padding: 7px 16px;
+    width: 158px;
+    margin-bottom: 12px;
+}
+.admin-sidebar-logo {
+    width: 158px;
+    margin: 0px auto;
+    padding: 19px;
+}
+.admin-sidebar-logo{
+    width: 158px;
+}
+.colr-grey {
+    color: #495057;
+}
+.font-med{
+    font-family: 'Rubik Medium' !important;
+}
+.color-grey{
+    color: #6a7187 !important;
+}
+.font-bold {
+    font-family: 'Rubik Bold' !important;
+}
+.font-weight-bold{
+font-weight:bold !important;
+}
+.login-window {
+    position: relative;
+}
+.Footer-side {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+}
+.Footer-side svg path {
+    color: #f46a6a;
+}
+.no-text-decoration{
+text-decoration:none !important;
+}
+.login-window {
+    display: grid;
+    align-items: center;
+}
+.logn-form-admin input {
+    margin-top: 21px;
+    width: 100%;
+    border-radius: 4px;
+    border: solid 1px #ced4da !important;
+    padding: 0px 15px;
+    height:34px;
+}
+.logn-form-admin .MuiInput-root.MuiInput-underline.MuiInputBase-root:after {
+    border-bottom: 0px !important;
+}
+.logn-form-admin .MuiInput-root.MuiInput-underline.MuiInputBase-root:before {
+    border-bottom: 0px !important;
+}
+.logn-form-admin label {
+    font-size: 18px;
+    color: #495057;
+}
+.logn-form-admin .MuiFormControl-root {
+    width: 100%;
+}
+.logn-form-admin  .css-47elr3-MuiInputBase-root-MuiInput-root:before{
+border-bottom: none;
+}
+.logn-form-admin .css-47elr3-MuiInputBase-root-MuiInput-root:after{
+    border-bottom: none;
+}
+.logn-form-admin .css-47elr3-MuiInputBase-root-MuiInput-root:hover:not(.Mui-disabled):before {
+    border-bottom: none;
+}
+.logn-form-admin input:focus{
+    border: 1px solid #82005e !important;
+}
+
+.frgt-pass-form label {
+    font-size: 18px;
+    color: #495057;
+}
+.frgt-pass-form input {
+    margin-top: 21px;
+    width: 100%;
+    border-radius: 4px;
+    border: solid 1px #ced4da !important;
+    padding: 5px 15px;
+}
+.frgt-pass-form .MuiFormControl-root {
+    width: 100%;
+}
+.frgt-pass-form .css-47elr3-MuiInputBase-root-MuiInput-root:before{
+border-bottom: none;
+}
+.frgt-pass-form .css-47elr3-MuiInputBase-root-MuiInput-root:after{
+    border-bottom: none;
+}
+.frgt-pass-form .css-47elr3-MuiInputBase-root-MuiInput-root:hover:not(.Mui-disabled):before {
+    border-bottom: none;
+}
+.frgt-pass-form input:focus{
+    border: 1px solid #82005e !important;
+}
+.change-passwrd-form label {
+    font-size: 18px;
+    color: #495057;
+}
+.change-passwrd-form input {
+    margin-top: 21px;
+    width: 100%;
+    border-radius: 4px;
+    border: solid 1px #ced4da !important;
+    padding: 5px 15px;
+}
+.change-passwrd-form .MuiFormControl-root {
+    width: 100%;
+}
+.change-passwrd-form .css-47elr3-MuiInputBase-root-MuiInput-root:before{
+border-bottom: none;
+}
+.change-passwrd-form .css-47elr3-MuiInputBase-root-MuiInput-root:after{
+    border-bottom: none;
+}
+.change-passwrd-form .css-47elr3-MuiInputBase-root-MuiInput-root:hover:not(.Mui-disabled):before {
+    border-bottom: none;
+}
+.change-passwrd-form input:focus{
+    border: 1px solid #82005e !important;
+}
+.main-head-dashboard h3 {
+    text-transform: uppercase;
+    font-family: 'Rubik Bold';
+    font-size: 20px;
+    color: #495057;
+    margin-bottom: 0px;
+}
+.right-topbar {
+    padding-right: 1rem;
+}
+.prf-img-dash {
+    width: 48px;
+    height: 48px;
+}
+.prf-img-dash img {
+    border-radius: 50%;
+}
+.user-img img {
+    border-radius: 50%;
+}
+.orange-txt span {
+    color: #f36f21;
+}
+/* Footer css */
+p.texty-right {
+    text-align: right;
+    font-family: 'Rubik Regular';
+    font-size: 13px;
+    color: #6a7187;
+}
+.admin-footer {
+    background: #f2f2f5;
+}
+.admin-footer p {
+    margin-bottom: 0px;
+}
+p.texty-left {
+    font-family: 'Rubik Regular';
+    font-size: 13px;
+    color: #6a7187;
+}
+.login-window {
+    box-shadow: none !important;
+}
+/*  Change Password */
+section.chnge-pass {
+    min-height: 100vh;
+}
+.change-pass-area .MuiFormControl-root {
+    margin-bottom: 15px;
+}
+/* */
+
+
+
+
+
+.left-area {
+    padding:0px;
+}
+.admn-log input#submit {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    background: #82005e;
+    color: #fff;
+    padding: 10px 0px;
+    font-family: 'Rubik Medium';
+    border-radius: 4px;
+}
+.log-form input#checkbox2:focus {
+    box-shadow: none;
+}
+.right-area {
+    background: #fff;
+    display: inline-grid;
+    align-items: center;
+    position: relative;
+}
+.admin-scr .row{
+    position: relative;
+    min-height: 100vh;
+}
+.mainadminlogin {
+    width: 100%;
+}
+.mainadminlogin h2 {
+    background: #82005e;
+    display: inline-block;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Rubik Medium';
+    margin-bottom:35px;
+}
+.mainadminlogin h3 {
+    font-family: 'Rubik Medium';
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #495057;
+}
+p.pls-credn {
+    font-size: 19px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #495057;
+    font-family: 'Rubik Regular';
+}
+form.log-form label {
+    font-family: 'Rubik Regular';
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #495057;
+}
+.admn-log a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    background: #82005e;
+    color: #fff;
+    padding: 10px 0px;
+    font-family: 'Rubik Medium';
+    border-radius: 4px;
+}
+.frgt-pass a {
+    font-size: 13px;
+    font-family: 'Rubik Regular';
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #6a7187;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+}
+.rght-footer p {
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #6a7187;
+    font-family: 'Rubik Medium';
+}
+.rght-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.rght-footer svg path {
+    fill: #f46a6a;
+}
+input#checkbox2:checked {
+    background-color: #82005e;
+    border-color: #82005e;
+}
+.site-logo {
+    background: #82005e;;
+    text-align: center;
+    padding: 15px 0px;
+}
+.site-logo h3 {
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 0px;
+}
+.go-bck a {
+    font-size: 16px;
+    font-family: 'Rubik Regular';
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #82005e;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    font-weight: 800;
+}
+.go-bck a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,43 @@
+.no-mrgn_top {
+    margin-top: 0px !important;
+}
+form.refund_status_form input {
+    width: 100%;
+}
+form.refund_status_form .MuiFormControl-root{
+    width: 100%;
+}
+form.refund_status_form label.MuiFormLabel-root.MuiInputLabel-root {
+    max-width: 100%;
+    transform: unset !important;
+    transform-origin: unset !important;
+    position: unset !important;
+}
+.status_refund .MuiSelect-select {
+    padding: 10px;
+    background: #fff;
+}
+.amount_refund input{
+    padding: 10px;
+    background: #fff;
+}
+.feedbck_prcs_refund input{
+    padding: 10px;
+    background: #fff;
+}
+.amount_refund input::-webkit-outer-spin-button,
+.amount_refund input::-webkit-inner-spin-button{
+   cursor:pointer !important;
+}
+
+.rfnd-avtr .MuiListItemAvatar-alignItemsFlexStart {
+    margin-top: 0px;
+}
+.refund_status {
+    padding: 0px 5px !important;
+}
+@media (max-width:1535px){
+    .main_one_filter .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-sm-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-6 {
+        margin-bottom: 10px;
+    }
+}

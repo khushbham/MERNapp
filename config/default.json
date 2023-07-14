@@ -1,0 +1,22 @@
+{
+  "mongoURI": "mongodb+srv://database_manager:the_resource_agency_management@cluster0-7gjqk.mongodb.net/mentor?retryWrites=true&w=majority",
+  "jwtSecret": "secret",
+  "githubClientId": "",
+  "githubSecret": "",
+  "SESSIONREMINDERFORSTUDENT":1,
+  "SESSIONCANCELLEDFORSTUDENT":2,
+  "REFUNDNOTIFICATIONFORSTUDENT":3,
+  "SESSIONSCHEDULED":4,
+  "SESSIONREMINDERFORTEACHER":5,
+  "SESSIONCANCELLEDFORTEACHER":6,
+  "PAYOUTSRELEASED":7,
+  "NotificationTypeForBooking":1,
+  "NotificationTypeForSessionStart":2,
+  "NotificationTypeForCancelClassByTeacher": 3,
+  "NotificationTypeForPayoutRelease": 4,
+  "NotificationTypeForCancelPayout": 5,
+  "NotificationTypeForRefundRelease": 6,
+  "NotificationTypeForCancelRefund": 7,
+  "NotificationTypeForCancelClassByStudent": 8
+
+}

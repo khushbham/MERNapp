@@ -1,0 +1,7 @@
+node_modules/
+client/node_modules/
+client/build/
+client/package-lock.json
+config/production.json
+.env
+package-lock.json

@@ -1,0 +1,3506 @@
+@font-face {
+    font-family: 'Rubik Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Rubik Regular'), url('../../fonts/Rubik-Regular.woff') format('woff');
+    }
+    @font-face {
+    font-family: 'Rubik Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Rubik Bold'), url('../../fonts/Rubik-Bold.woff') format('woff');
+    }
+    @font-face {
+    font-family: 'Rubik-Semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Rubik-Semibold'), url('../../fonts/Rubik-Semibold.woff') format('woff');
+    }
+    @font-face{
+    font-family: 'Rubik Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Rubik Medium'), url('../../fonts/Rubik-Medium.woff') format('woff');
+    }
+    @font-face {
+    font-family: 'Rubik Extra Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Rubik Bold'), url('../../fonts/Rubik-Extrabold.woff') format('woff');
+    }
+    .sign_up_section.container .row {
+        height: 100vh;
+        align-items: center;
+    }
+    .wht-section h3 {
+        font-size: 20px;
+        font-weight: 800;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        color: #82005e;
+        font-family: 'Rubik Extra Bold';
+        text-transform: uppercase;
+    }
+    .wht-section h2 {
+        margin: 15px 0px;
+        font-size: 32px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.06;
+        letter-spacing: normal;
+        font-family: 'Rubik Bold';
+    }
+    .wht-section p {
+        margin: 22px 25px 25px 0;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.38;
+        letter-spacing: normal;
+        font-family: 'Rubik Regular';
+        color: #424242;
+    }
+    a.log-btn {
+        padding: 15px 30px 15px 30px;
+        border-radius: 50px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0;
+        background: #f62f8a;
+        border:2px solid #f62f8a;
+        text-decoration: none;
+        color: #fff;
+        text-align:center;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-family: 'Rubik Medium';
+        margin-right: 10px;
+    }
+    a.sign-btn {
+        padding: 15px 30px 15px 30px;
+        border-radius: 50px;
+        text-align:center;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0;
+        border: 2px solid #f62f8a;
+        text-decoration: none;
+        color: #f62f8a;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-family: 'Rubik Medium';
+    }
+    .cont-txt {
+        margin-top: 35px;
+    }
+    a.Or-continue {
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        color: #424242 !important;
+        text-decoration: none;
+        font-family: 'Rubik Regular';
+    }
+    .wht-section {
+        border-radius: 36px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%);
+        background: #fff;
+        padding: 50px 40px;
+    }
+    a.log-btn:hover {
+        border: 2px solid #f62f8a;
+        background: #fff !important;
+        color: #f62f8a;
+    }
+    a.sign-btn:hover {
+        border: 2px solid #f62f8a;
+        background: #f62f8a !important;
+        color: #fff;
+    }
+    .reg_section.container .row {
+        min-height: 100vh;
+        align-items: center;
+    }
+    
+    ul.reg-tab li a {
+        border-top: 0 !important;
+        border-left: 0px !important;
+        border-right: 0px !important;
+    }
+    ul.reg-tab li a.active {
+        color: #f62f8a !important;
+        border-bottom: 2px solid #f62f8a !important;
+    }
+    ul.reg-tab li a.nav-link {
+        color: #b2b2b2;
+        border-bottom: 2px solid #b2b2b2;
+    }
+    ul.reg-tab li a {
+        font-size: 18px;
+        font-family: 'Rubik Regular';
+    }
+    .reg-cnt .input-group-text {
+        background-color: #fff;
+    }
+    .reg-cnt .input-group {
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%);
+        border-radius: 4px!important;
+        height: 48px;
+    }
+    .reg-cnt input.form-control {
+        border-left: 0px;
+    }
+    .reg-cnt .input-group-text svg path {
+        fill: #82005e;
+    }
+    span#basic-Mobile svg {
+        width: 10px;
+        height: 24px;
+    }
+    #password svg {
+        width: 18px !important;
+        height: 26px !important;
+    }
+    #confirmpassword svg {
+        width: 18px !important;
+        height: 26px !important;
+    }
+    a.create-btn {
+        padding: 15px 30px 15px 30px;
+        border-radius: 50px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0;
+        background: #f62f8a;
+        border: 2px solid #f62f8a;
+        text-decoration: none;
+        color: #fff;
+        text-align: center;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-family: 'Rubik Medium';
+    }
+    .reg-cnt .form-control:focus {
+        box-shadow: none !important;
+        border: 1px solid #ccc !important;
+        border-left: 0 !important;
+    }
+    .reg-cnt .form-check-input {
+        width: 18px;
+        height: 18px;
+    }
+    .reg-cnt .form-check-input:checked {
+        background-color: #82005e !important;
+        border-color: #82005e !important;
+        width: 18px;
+        height: 18px;
+    }
+    p.accpt-txt  {
+        color: #424242 !important;
+        margin-bottom: 0px;
+        margin-left: 10px;
+        font-family: 'Rubik Regular' !important;
+        font-weight: 600;
+    }
+    p.alrdy {
+        color: #424242;
+        font-size: 14px;
+        font-family: 'Rubik Regular' !important;
+        font-weight: 600;
+    }
+    p.alrdy a{
+        color: #424242 !important;
+    }
+    p.accpt-txt a {
+        color: #424242 !important;
+    }
+    ul.reg-tab.nav.nav-tabs {
+        width: 100%;
+    }
+    ul.reg-tab.nav.nav-tabs li {
+        width: 50%;
+        text-align: center;
+    }
+    .reg-section {
+        border-radius: 36px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%);
+        background: #fff;
+        padding: 50px 40px;
+    }
+    a.create-btn:hover {
+        border: 2px solid #f62f8a;
+        background: #fff !important;
+        color: #f62f8a;
+    }
+    .chk-sct {
+        display: inline-flex;
+       align-items: center;
+    }
+    a.forget-pass {
+        color: #424242c4 !important;
+        font-family: 'Rubik Regular' !important;
+        font-weight: 600;
+    }
+    .dot-account p {
+        color: #424242c4 !important;
+        font-family: 'Rubik Regular' !important;
+        font-weight: 600; 
+    }
+    .dot-account p a {
+        color: #424242c4 !important;
+    }
+    /* login-css */
+    .outerWrapper {
+        background: #fff;
+        text-align: center;
+        padding: 20px 25px 21px;
+        border-radius: 36px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%);
+        background-color: #fff;
+    }
+    .availabilitySlots{
+        background: #fff;
+        padding: 20px 25px 21px;
+        border-radius: 36px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%);
+        background-color: #fff;
+    }
+    h2.HeadingText{
+        color: #424242;
+        font-size: 24px !important;
+        font-weight: normal;
+        line-height: 1.42;
+        text-align: center;
+    }
+    .passwordInstructions{
+        text-align: left !important;
+    }
+    .LoginWrapper {
+        background: #eeeeee;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        background-image:url('../../images/bg3.png');
+        background-size:cover;
+        background-position:top;
+    }
+    .LoginForm a.passLink {
+        font-size: 14px;
+        font-style: normal;
+        line-height: 1.57;
+        letter-spacing: normal;
+        text-align: center;
+        color: #424242;
+        text-decoration: underline;
+    }
+    .FieldsText{
+        padding: 8px 10px;
+        border-radius: 2px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%);
+        background-color: var(--light-white);
+        color: #454242;
+        width: 100%;
+    }
+    .error_message{
+        display: flex;
+        font-size: 13px;
+        color: red;
+    }
+    a.CreatebtnLink{
+        display: block;
+        width: 100%;
+        background: #82005e;;
+        text-align: center;
+        color: #fff;
+        padding: 17px;
+        font-size: 15px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: 0.5px;
+        text-align: center;
+        border-radius: 24px;
+        text-transform:uppercase;
+        border:1px solid #82005e;
+    }
+    a.CreatebtnLink:hover{
+        border:1px solid #82005e;
+        background-color:transparent;
+        color:#82005e;
+    }
+    .LoginbtnLink {
+            display: block !important;
+            width: 100%;
+            background: #f62f8a !important;
+            text-align: center !important;
+            color: #fff !important ;
+            padding: 17px !important;
+            font-size: 15px !important;
+            font-weight: 500 !important;
+            font-stretch: normal !important;
+            font-style: normal !important;
+            line-height: 1 !important;
+            letter-spacing: 0.5px !important;
+            text-align: center !important;
+            border-radius: 24px !important;
+            text-transform:uppercase !important;
+            border:1px solid #f62f8a !important;
+            text-decoration: none;
+    }
+    .LoginbtnLink:hover{
+        border:1px solid #f62f8a !important;
+        background-color:transparent !important;
+        color:#f62f8a !important;
+    }
+    .SignUpFrom p{
+        font-size: 13px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: center;
+        color: #424242;
+        margin-bottom: 0px;
+    }
+    a.acc-link {
+        text-decoration: underline;
+         color: #424242;
+    }
+    .conditions {
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        color: #424242;
+    }
+    .FiledsOuter {
+        width: 100%;
+        margin: 7px 0px !important;
+    }
+    .SignUpFrom {
+        background: #eeeeee;
+        display: flex;
+        align-items: center;
+        min-height: 100vh;
+        padding:20px;
+        background-image:url('../../images/bg3.png');
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+    .FiledsOuter svg {
+        width: 25px;
+        height: 25px;
+    }
+    .FiledsOuter svg path{
+        fill:#82005e;
+    }
+    .LoginBtn a {
+        background: #f62f8a;
+        display: inline-block;
+        border-radius: 24px;
+        padding: 13px 0px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #fff;
+        width: 100%;
+    }
+    /* .LoginForm {
+        margin: 20px 0px;
+    } */
+    .outerWrapper a.passLink {
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        color: #424242;
+        margin-bottom: 6px;
+        display: inline-block;
+        text-decoration: underline;
+    }
+    .outerWrapper p {
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        color:#424242;
+    }
+    .outerWrapper a.AccountName{
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        color:#424242;
+    }
+    .HeaderLogo{
+        padding:5px 15px;
+    }
+    .SiteLink{
+        color:#82005e;
+        font-weight:600;
+        font-size:40px !important;
+    }
+    /* signup-tabs */
+    .loginTabs {
+        width: 50%;
+        width: 50%;
+        color: #b2b2b2 !important;
+        font-size: 18px !important ;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.89;
+        letter-spacing: normal;
+        text-align: center;
+        border-bottom: 3px solid #e0e0e0 !important;
+    }
+    .FieldsText:before{
+        border-bottom: 0px !important;
+    }
+    
+    .loginTabsOuter .css-jce8rg-MuiTabs-indicator {
+        background-color: #f62f8a;
+        height: 3px;
+    }
+    .loginTabs.Mui-selected{
+        color:#f62f8a  !important;
+        font-weight: 600;
+        border-bottom:2px solid #f62f8a !important;
+    }
+    .loginHead{
+        font-size: 24px !important;
+        font-weight: bold !important;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.42;
+        letter-spacing: normal;
+        text-align: center;
+    }
+    #input-with-icon-adornment {
+        padding: 11px 0px;
+    }
+    .FormOuter {
+        background: #fff;
+        padding: 21px;
+        border-radius: 36px;
+        box-shadow: 0 5px 10px 0 rgb(0 0 0 / 45%), 0 0 2px 0 rgb(0 0 0 / 12%);
+    }
+    .tabssHeading {
+        font-size: 15px !important;
+        text-transform: uppercase !important;
+        font-weight: 700 !important;
+        letter-spacing: 0.5px;
+        text-align: center;
+    }
+    .parent-modal-title{
+        display: flex;
+        justify-content: center;
+    }
+    .parent-modal-container{
+        display: flex;
+        flex-direction: column;
+        align-items: unset;
+        justify-content: space-between;
+    }
+    .parent-modal-description{
+        height: 50px;
+        width: 100%;
+        margin-bottom: 19px;
+        border-radius: 30px;
+        border: 2px solid black;
+    }
+    .modal-button{
+        border-radius: 30px;
+        height: 40px;
+        background-color:#f62f8a;
+        color: white;
+        border:1px solid #f62f8a;
+        margin-top: 25px;
+    }
+    /* reset-password */
+    .Mob-icon{
+     text-align: center;
+     margin-bottom: 20px;
+    }
+    .mobileImage svg {
+        width: 30px;
+        height: 49px;
+    }
+    .mobileImage {
+        display: flex;
+        background: rgba(130, 0, 94, 0.07);
+        width: 100px;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        margin: 0 auto;
+    }
+    .instruct-text{
+        font-size: 14px !important;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        text-align: center;
+        color: #424242;
+    }
+    .Mob-icon path{
+         fill:#82005e;
+    }
+    .resetField{
+        font-size: 24px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: 12px;
+        text-align: center;
+        color: #424242;
+    }
+    .passIntruct{
+        margin: 5px 0 0  !important;
+        font-size: 13px !important;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.83;
+        letter-spacing: normal;
+        color:#424242
+    }
+    .resetField:before{
+        border-bottom:0px !important;
+    }
+    .resetField {
+        width: 100%;
+        border-radius: 2px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%);
+        padding: 12px 10px;
+        BORDeR: 0px;
+    }
+    .ResetPass .FormOuter {
+        padding: 20px 45px;
+    }
+    .splash-bg-img {
+        background-image: url('../../images/side-img.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+    }
+    .splashOuter {
+        background: #fff;
+        height: 100%;
+        padding: 23px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .SessionsOuter {
+        background: #fff !important;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 5px !important;
+    }
+    /* multisteps */
+    textarea.StepsFields:focus{
+        outline: #82005e;
+    }
+    .StepsFields Input,
+    textarea.StepsFields{
+        padding: 12px;
+        border-radius: 2px;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12) !important;
+        background-color: #fff;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        color: #212121;
+        border:0px;
+    }
+    ul.MuiList-root li{
+        font-size:14px !important;
+    }
+    .selectDropdown .StepsFields fieldset{
+        padding: 12px;
+        border-radius: 2px;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12) !important;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        color: #212121;
+        border:0px;
+        border-radius: 2px !important;
+    }
+  .MuiPopover-paper{
+  top: 168px;;
+  }
+    
+    .uploadfield {
+        width: 100%;
+        z-index: 9999;
+        opacity: 0;
+    }
+    .uploadImage{
+        position: relative;
+    }
+    .UploadImageIcon svg{
+        color: #d1d3d4;
+        width: 2rem;
+        height: 2rem;
+    }
+    .UploadImageIcon{
+       background:#424242;
+       padding:14px;
+       border-radius: 8px;
+       position: absolute;
+       top:0;
+       bottom:0px;
+       left:0px;
+       right:0px;
+    }
+    
+    .uploadInstructions {
+        margin: 0px !important;
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        color: #fff !important;
+    }
+    .subtextt{
+        font-size: 11px !important;
+        font-weight: 400 !important;
+        color: #fff !important;
+    }
+    .studentNameLabel{
+        position: unset !important;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #424242 !important;
+        margin-bottom:10px;
+        font-size: 14px !important;
+        transform: none !important;
+        font-weight: 600 !important;
+    }
+    label{
+        position: relative;
+    }
+    .SelectFields {
+        width: 100% !important;
+    }
+    .FormOuter.accountSteps {
+        background: #f5f5f5;
+    }
+    .topHeader{
+        background-color: #82005e;
+        border-radius: 0px 0px 0px 30px;
+    }
+    .TopBar{
+        background-color: #5a064f;
+        height:20px;
+    }
+    .Heading{
+        font-size: 20px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 3px;
+        color: #ffff !important;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    /* banner css include here */
+    .bannerWrap{
+        padding:20px 0px;
+    }
+    .LandingPageWrap{
+        background-color: #eeeeee;
+    }
+    .LandingPageWrap .content{
+        height:unset !important;
+    }
+    a.SearchBtn {
+        background: #f62f8a;
+        border-radius: 24px;
+        padding: 15px 30px;
+        display: inline-block;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        text-transform: uppercase;
+        width:100%;
+        text-decoration: none;
+        border:1px solid #f62f8a;
+    }
+    .SearchField{
+        border-radius: 24px !important;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%);
+        padding: 5px 0px;
+        color: #3f3b3b;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: Rubik;
+    }
+    .TopicLinks{
+        background-color: #82005e;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        color:#fff !important;
+        padding: 7px 18px;
+        margin-right:10px !important;
+        border-radius: 16px;
+        text-decoration: none;
+        font-family: 'Rubik Regular';
+    }
+    .TopicLinks.EditInfoLinks svg {
+        width: 6px;
+        height: 6px;
+        margin:0px 4px;
+    }
+    .inspiredBanner{
+        background-image:url('../../images/landing-web-bk-bann.jpg');
+        background-size: 100% 100%;
+        margin:60px 0px 20px;
+        padding:70px 50px;
+    } 
+    .InspiredHead{
+        font-size: 38px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffff;
+        margin-bottom: 0px !important;
+    }
+    .SignUpBtn{
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        background-color: #f62f8a !important;
+        color: #fff !important;
+        text-transform: uppercase;
+        padding: 14px 44px !important;
+        border-radius: 20px;
+        text-decoration: none !important;
+        cursor: pointer;
+    }
+    .SignBtn{
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        color: #fff !important;
+        text-transform: uppercase;
+        padding: 14px 44px !important;
+        border-radius: 20px;
+        text-decoration: none !important;
+        cursor: pointer;
+        background-color: #82005e;
+        color:#fff !important;
+        margin: 20px 0px 0px !important;
+        display: inline-block;
+    }
+    /* .profileImg {
+        width: 160px;
+        height: 140px;
+    } */
+    .profileImg img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius:15px;
+    }
+    .TeacherInfo{
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        font-weight: 400 !important;
+        margin-bottom:40px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        color: grey;
+    }
+    .TeacherProfile .tecaherName{
+    color:gray;
+    margin-bottom: 0;
+    }
+    .sliderSettings .slick-slide div:fist-child{
+        height:100%;
+    }
+    .sliderSettings .slick-track {
+        display: flex !important;
+    }
+    .TeacherProfile{
+        background: #ffff;
+        padding: 5px 5px 13px;
+        border-radius: 16px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%);
+        margin-bottom: 10px;
+        height: 100%;
+        position: relative;
+    }
+    .SlideWrap {
+        padding: 0px 7px;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+    .sliderSettings{
+        display: flex;
+    }
+    .RatingVal {
+        font-size: 20px !important;
+        margin: 0;
+    }
+    .totalReviews{
+      color:#212121;
+      font-size:12px;
+    }
+    .sliderSettings .slick-dots li.slick-active button:before{
+        color:#5a064f !important;
+    }
+    .sliderSettings .slick-dots li:hover button:before{
+        color:#5a064f !important;
+    }
+    .sliderSettings .slick-dots li{
+        margin:0px !important;
+    }
+    .sliderSettings .slick-dots li button:before{
+     font-size:8px;
+    }
+    /* teacher page css */
+    .FeaturedSlider{
+        background-color:#eeeeee;
+        padding:36px 0px 0px;
+    }
+    .sliderHeading{
+      font-size: 32px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 0.75;
+      color:#303030;
+    }
+    .subHeadings{
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        color:rgba(0, 0, 0, 0.54);
+    }
+    .FeaturedSlider .slick-slider.sliderSettings {
+        margin: 50px 0px;
+    }
+    .TeacherWrapp{
+        background-color: #eeeeee;
+    }
+    .DesktopSidebar ul.MenuListt {
+        background: #41002f;
+        height: 100%;
+        width: 100%;
+    }
+    .DesktopSidebar .link{
+        color:#fff !important;
+        text-decoration: none;
+    }
+    .LinksBorder{
+        border-color:#fff !important;
+    }
+    .DesktopSidebar li:hover{
+        background: #f62f8a !important;
+        border-radius: 4px;
+    }
+    .icon svg{
+        color:#fff !important;
+        font-size:30px;
+    }
+    .HeaderWrap{
+        padding:12px 0px 12px !important;
+        background: #82005e;
+        border-radius: 0px 0px 0px 30px;
+    }
+    /* classes details css */
+    .classes-details{
+        background-color: #eeeeee;
+        padding: 50px 0px;
+        margin-top: -26px;
+    }
+    .classesHeading{
+        /* font-size: 32px !important; */
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.75;
+    }
+    .classes{
+        font-size: 18px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        color:#f62f8a;
+    }
+    .decSubHead{
+      font-size: 16px !important;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.25;
+      letter-spacing: normal;
+      color:rgba(0, 0, 0, 0.54) !important;
+    }
+    .ContactLink{
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        color:#f62f8a !important;
+        text-decoration: underline;
+    }
+    .profileName{
+       color:#f62f8a !important;
+       margin-bottom: 0px !important;
+    }
+    .PdtLink{
+       background-color:rgba(0, 0, 0, 0.26)!important;
+       font-size: 12px !important;
+       border-radius: 16px;
+       padding:10px !important;
+       color:#fff !important;
+       text-decoration:none !important;
+    }
+    .ClassesTimeDetail {
+        background: #f8efe4;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 8px;
+    }
+    .listIcons svg{
+        font-size: 23px;
+        color: #424242;
+    }
+    .ClassesDescription hr{
+       color:#e0e0e0;
+    }
+    .ClassesDescription {
+        background: #ffff;
+        padding: 30px 50px;
+        border-radius: 32px 0px 0px 0px;
+        margin-top: 20px;
+    }
+    .desc-heading{
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.75;
+        letter-spacing: normal;
+        color:#303030;
+    }
+    .SessionDetails {
+        background: #f5f5f5;
+        padding: 18px;
+        margin: 40px 0px;
+    }
+    .sessionLink{
+        text-decoration: none !important;
+    }
+    .contactBtn{
+        display: block;
+        background: #f62f8a;
+        text-align: center;
+        padding: 23px;
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: 0.5px;
+        text-align: center;
+        color: #fff !important;
+        text-decoration: none !important;
+        text-transform: uppercase;
+    }
+    span.Price {
+        color: #424242;
+        font-size: 40px !important;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: -1px;
+        margin: 0px !important;
+    }
+    .PriceDetail{
+      font-size: 26px !important;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      color: #424242 !important;
+    }
+    .SessionDetails p{
+       color:rgba(0, 0, 0, 0.54);
+    }
+    /* teacher profile */
+    .tabsOuterContent {
+        background: #5a064f;
+        border-radius: 0px 11px 0px 0px;
+    }
+    .teacherProfileWrap .tabsHeading{
+        font-size: 14px !important;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color:#d9bed2b8 !important;
+        text-transform: uppercase !important;
+    }
+    .tabsHeading {
+        font-size: 16px !important;
+        color: #fafafad4 !important;
+        font-weight: 600;
+    }
+    .teacherProfileWrap .css-1nwjla4-MuiButtonBase-root-MuiTab-root.Mui-selected{
+        color:#fff !important;
+    }
+    .MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.Mui-selected.tabsHeading {
+        color: #fff !important;
+        font-weight: 500;
+        font-size: 18px !important;
+    }
+    .teacherProfileWrap .css-jce8rg-MuiTabs-indicator{
+      background-color:#fff !important;
+    }
+    .deatilsSubhead{
+        margin-bottom: 0px !important;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.71;
+        letter-spacing: normal;
+        text-align: center;
+        color:rgba(0, 0, 0, 0.54) !important;
+    }
+    .teacherProfileWrap{
+        background-color: #eeeeee !important;
+    }
+    .onlineClassesBtn{
+        background-color: #b1d63d;
+        color:#fff !important;
+        border-radius: 20px;
+        padding: 8px 20px;
+        text-decoration: none !important;
+    }
+    .TeacherPersonalDeatils{
+        background-color: #424242;
+        padding: 27px 30px 58px;
+        border-radius: 32px 0px 0px;
+        margin-top:30px;
+    }
+    .detailList{
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.46;
+        letter-spacing: normal;
+        color: #fff !important;
+    }
+    .detailhead{
+        font-size: 14px;
+        font-weight: normal !important;
+        line-height: 1.46;
+        letter-spacing: normal;
+        color: #fff !important;
+    }
+    .AboutContentSec{
+        background-color: #fff;
+        padding: 36px 40px;
+        border-radius: 32px 0px 0px;
+        margin-top: -25px;
+        box-shadow: 1px 2px 7px #d7d7d7;
+    }
+    .stud-review{
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        color: rgba(0, 0, 0, 0.87) !important;
+    }
+    .ReviewsHead{
+        font-size: 16px !important;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        color: rgba(0, 0, 0, 0.87);
+    }
+    .ImagesList{
+      padding:0px 10px;
+    }
+    .ImagesList img{
+        width:100%;
+        height:100%;
+        border-radius:16px;
+    }
+    .Gallery .slick-dots li{
+        margin:0px;
+    }
+    .Gallery .slick-dots button:before{
+        font-size: 8px !important;
+    }
+    .Gallery .slick-dots li.slick-active button:before{
+       color:#5a064f !important;
+    }
+    .SearchFilter {
+        background: #fff;
+        padding: 36px 0px;
+        border-radius: 0px 32px 0px;
+        margin-top: -23px;
+    }
+    .SearchSettings {
+        position: absolute;
+        right: 12px;
+        top: 0;
+        display: flex;
+        align-items: center;
+        bottom: 0;
+    }
+    .SearchSettings svg{
+        color:#d1d3d4;
+        font-size:18px;
+    }
+    .Search--Filter{
+        border-radius: 2px;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+        padding: 10px 16px;
+    }
+    .Search--Filter::placeholder{
+        font-size: 16px !important;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+    } 
+    .ResultsLink{
+        background-color: #82005e !important ;
+        padding: 7px 12px !important;
+        color:#fff !important;
+        border-radius: 36px !important;
+    }
+    .SearchResults svg{
+        font-size:20px;
+    }
+    .Filter .class-type .MuiSelect-select.MuiSelect-standard,
+    .Filter  .class-type .MuiInput-root.MuiInput-underline.MuiInputBase-root{
+        background-color:#5a064f;
+        border-radius:30px;
+        color:#fff !important;
+    }
+    .Filter .class-type .MuiSelect-select.MuiSelect-standard{
+        padding:8px 10px !important;
+    }
+    .Filter .css-gt4wp-MuiInputBase-root-MuiInput-root:after,
+    .Filter .css-gt4wp-MuiInputBase-root-MuiInput-root:before
+    {
+        border-bottom:0px;
+    }
+    .filterSelectBox:hover{
+        border-bottom:0px !important;
+    }
+    .Filter svg{
+        color:#fff !important;
+    }
+    .filterSelectBox:hover:before{
+        border-bottom: 0px !important;
+    }
+    .TopicsWrap {
+        padding-bottom: 20px;
+    }
+    header {
+        border-radius: 0px 0px 0px 36px !important;
+    }
+    .UploadProfile {
+        background: #e0e0e0;
+        padding: 10px;
+        border-radius: 10px;
+        display: flex;
+    }
+    .profileeHeading {
+        font-size: 14px  !important;
+        font-stretch: normal !important;
+        font-style: normal !important;
+        line-height: 1.43 !important;
+        letter-spacing: normal;
+        color: #424242 !important;
+        margin: 0px;
+    }
+    .subText{
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: normal;
+        color:#424242;
+    }
+    .payOutsettings .payBox {
+        padding: 20px;
+        background: #fff;
+        border-radius: 10px;
+        padding: 18px 30px;
+        border-radius: 16px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%);
+        text-align: center;
+        height:100%;
+        cursor: pointer;
+    }
+    .payoutWrapper {
+        background: #eeeeee;
+        min-height: 100vh;
+    }
+    .PayoutHead {
+      margin: 0px;
+      color:rgba(33, 33, 33, 0.7);
+    }
+    .subbTexttt{
+        font-size: 14px !important;    
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: center;
+        color:rgba(33, 33, 33, 0.7) !important;
+        font-weight: 500 !important;
+    }
+    .payoutTabsLabel {
+        font-size: 14px !important;
+        font-weight: 500 !important;
+        text-align: center !important;
+        text-transform: uppercase !important;
+    }
+    .fieldTextt {
+        font-size: 16px !important;
+        font-weight: 500 !important;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.75;
+        letter-spacing: normal;
+        color: #fff;
+        margin: 0px !important;
+        padding: 10px 0px 0px;
+    }
+    .headinggg {
+        color: #fafafa !important;
+        font-size: 20px !important;
+        font-weight: 500 !important;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+    }
+    .PayoutTabsOuter {
+        background: #fff;
+        border-radius: 13px;
+    }
+    .PayoutFieldsOuter {
+        background: #5a064f;
+        padding: 25px 0px 20px;
+        margin-top: -2rem;
+    }
+    .sideBarTitle {
+        display: unset !important;
+        padding: 0px;
+        min-height:unset !important;
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.14;
+        letter-spacing: normal;
+        color: #212121;
+    }
+    .AccountName {
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.14;
+        letter-spacing: normal;
+        margin: 16px 0px;
+    }
+    .sideBarTitle {
+        align-items: self-start !important;
+        justify-content: center !important;
+        padding: 12px 11px 20px!important;
+        min-height:unset;
+    }
+    .css-14u0lwg-MuiButtonBase-root-MuiTab-root.Mui-selected svg path{
+        color: #82005e;
+    }
+    .sideBarTitle svg.MuiTab-iconWrapper {
+        font-size: 22px;
+        color: #000;
+        margin: 0px 5px!important;
+    }
+    .informationSidebar {
+        background: #fff;
+        /* padding: 20px; */
+        border-radius: 15px !important;
+    }
+    .PayoutText {
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        font-stretch: normal !important;
+        font-style: normal;
+        line-height: 1.14;
+        letter-spacing: normal;
+        color: rgba(33, 33, 33, 0.7) !important;
+    }
+    .PayoutHead {
+        font-size: 28px !important;
+        font-weight: 500 !important;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.4;
+        margin: 0px;
+    }
+    .payBox svg {
+        width: 33px;
+        height: 38px;
+        color: #b1d63d;
+    }
+    .payBox2 svg {
+        color: orange;
+        margin-right: 10px;
+    }
+    .notifyHead {
+        font-size: 24px !important;
+        font-weight: normal !important;
+        line-height: 1.33 !important;
+        letter-spacing: normal;
+    }
+    .SessionsWrap {
+        justify-content: space-between;
+        border-top: 1px solid rgba(0, 0, 0, 0.12);
+        padding: 3px 0px;
+    }
+    .chatWrap {
+        margin: 30px 0px;
+    }
+    .policyInstructions{
+        font-size: 12px !important;
+        font-weight: normal;
+        color:#424242;
+        margin-bottom:0px !important;
+    }
+    .saveBtn,
+    .saveBtn:hover{
+        background: #82005e !important;
+        color: #fff !important;
+        display: block !important;
+        text-align: center !important;
+        padding: 11px 0px !important;
+        font-size: 16px !important;
+        text-transform: uppercase !important;
+        text-decoration: none;
+    } 
+    .Modificationsbtn,
+    .Modificationsbtn:hover{
+        background: #f62f8a !important;
+        color: #fff !important;
+        display: block;
+        text-align: center;
+        padding: 11px 0px;
+        font-size: 16px;
+        text-transform: uppercase;
+        text-decoration: none !important;
+    }
+    .SessionsWrap .Subtitle{
+        font-size: 16px;
+        color:rgba(0, 0, 0, 0.87);
+        margin: 0px;
+        line-height: 1.14;
+        letter-spacing: normal;
+    }
+    .SessionsHead {
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2;
+        letter-spacing: normal;
+        margin: 0px 0px 11px !important;
+    }
+    .saveBtn,
+    .saveBtn:hover{
+        background: #82005e !important;
+        color: #fff !important;
+        display: block !important;
+        text-align: center !important;
+        padding: 11px 0px !important;
+        font-size: 16px !important;
+        text-transform: uppercase !important;
+        width: 300px !important;
+        margin: 0 auto !important ;
+        text-decoration: none;
+    }
+    .BookLink {
+        font-size: 14px !important;
+        font-weight: 500 !important;
+        font-stretch: normal !important;
+        font-style: normal !important;
+        line-height: 1 !important;
+        background: #82005e !important;
+        color: #fff !important;
+        padding: 10px 15px !important;
+        border-radius: 15px !important;
+        font-weight: 600 !important;
+    }
+    .BookLink svg {
+        width: 18px;
+        height: 20px;
+        margin-right: 3px;
+    }
+    .classesList {
+        border-bottom: 1px solid #eee;
+        padding: 28px 0px;
+    }
+    .ClassTitle {
+        font-size: 16px !important;
+        font-weight: 500 !important;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.5px;
+        color: #f62f8a !important;
+        cursor: pointer;
+    }
+    .classSubTitle {
+        font-size: 17px !important;
+        font-weight: 600 !important;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.13;
+        letter-spacing: normal;
+        color: #424242 !important;
+    }
+    .classWrapper {
+        border-radius: 30px 0px 0px 0px !important;
+        background: #fff;
+    }
+    span.IndividualClass {
+        font-size: 14px !important;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: rgba(0, 0, 0, 0.54);
+        font-weight: 500;
+    }
+    .TimeText {
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #424242;
+        margin: 0px;
+    }
+    .classesWrap {
+        background: #f5f5f5;
+        padding: 50px 0px;
+        margin-top: -2rem;
+        min-height: 100vh;
+    }
+    .statusColor{
+        color:#b1d63d !important;
+    }
+    .StepsContentWrapper {
+        box-shadow: 0 16px 16px 0 rgb(0 0 0 / 24%), 0 0 16px 0 rgb(0 0 0 / 12%);
+        padding: 15px 20px;
+        background: #fff;
+        border-radius: 15px;
+    }
+    .nextbtnOuter{
+      text-align: right !important;
+    }
+    .nextBttn {
+        background: #f62f8a !important;
+        padding: 8px 18px !important;
+        border-radius: 24px !important;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%);
+        color: #fff !important;
+        margin: 20px 0px;
+    }
+    .selectBox {
+        padding: 14px 13px 19px 12px;
+        border-radius: 8px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%);
+        background-color: var(--light-white);
+    }
+    .NextPrevBtns {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+    .PrevBttn {
+        font-size: 16px;
+        font-weight: 500 !important;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.71;
+        letter-spacing: 0.5px;
+        color: #212121 !important;
+        background: transparent !important;
+        border: 0px !important;
+        box-shadow: none !important;
+        text-transform: uppercase !important;
+    }
+    .subtitleee{
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.43;
+      letter-spacing: normal;
+      color:#424242;
+    }
+    /* dashbaord */
+    .overviewText {
+        padding: 30px 10px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 12%);
+        background-color: #fff;
+        border: solid 1px #e0e0e0;
+        height: 100%;
+    }
+    .overviewHead {
+        font-size: 32px;
+        color: #f62f8a;
+        text-align: center;
+    }
+    .NextscheduleWrap .detailsLink {
+        font-size: 13px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.33;
+        letter-spacing: normal;
+        color: #ff3742 !important;
+        text-decoration: none;
+    }
+    .DesktopSidebar .IconsList svg{
+        width: 26px;
+        height: 26px;
+        color: #fff;
+    }
+    
+    .overviewSubText {
+        font-size: 16px !important;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.54) !important;
+        margin-bottom: 0px;
+    }
+    .overviewHeading {
+        background: #fff;
+        margin: 0px !important;
+        font-size: 16px !important;
+        padding: 20px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 12%);
+        border-radius: 5px 5px 0px 0px;
+        border: 1px solid #e0e0e0;
+    }
+    .detailsOuter{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .css-kownu1-MuiInputBase-root-MuiInput-root:before{
+        border-bottom:0px !important;
+    }
+    .videoInstructt {
+        position: relative;
+    }
+    .videoInstructt input{
+        opacity: 0;
+        z-index:9999;
+    }
+    .videoInstructt .css-e0m31w-MuiInputBase-root-MuiInput-root:before,
+    .videoInstructt .css-e0m31w-MuiInputBase-root-MuiInput-root:hover:before,
+    .videoInstructt .css-e0m31w-MuiInputBase-root-MuiInput-root:after,
+    .videoInstructt .css-e0m31w-MuiInputBase-root-MuiInput-root:hover:after{
+        border-bottom: 0px;
+    }
+    .videoInstructt .MuiInput-root.MuiInput-underline.MuiInputBase-root.MuiInputBase-colorPrimary.css-e0m31w-MuiInputBase-root-MuiInput-root:hover:before {
+        border-bottom: 0px !important;
+    }
+    .AddVideoInstruct svg{
+        font-size:20px;
+    }
+    .UploadImageIcon.teacherProfile {
+        background: #e0e0e0;
+    }
+    .teacherProfile .uploadInstructions{
+      color:#424242 !important;
+      font-size: 14px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+    }
+    .teacherProfile .subtextt {
+        font-size: 12px !important;
+        font-weight: 400 !important;
+        color: rgba(0, 0, 0, 0.38)!important;
+        margin-bottom: 0px !important;
+    }
+    .AddVideoInstruct {
+        position: absolute;
+        top: 0;
+        color: #f62f8a;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .accountHeading {
+        font-size: 16px;
+        color: #82005e;
+        font-weight: 500;
+        margin-bottom: 20px;
+        margin-top:15px;
+    }
+    .SidebarList svg{
+        width:21px;
+        height:21px;
+        color:#000000;
+    }
+    div#nested-list-subheader{
+        font-size: 15px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.14;
+        letter-spacing: normal;
+        padding: 16px 16px 10px
+    }
+    .notificationSettings {
+        padding: 20px;
+    }
+    .SidebarList .css-cveggr-MuiListItemIcon-root{
+     min-width:47px;
+    }
+    .SidebarList li{
+        padding:15px;
+    }
+    .SidebarList a{
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.14;
+        letter-spacing: normal;
+        color: #212121;
+        text-decoration: none;
+        margin: 0px !important;
+        cursor:pointer;
+    }
+    .SidebarList li:hover a,
+    .SidebarList li:hover svg{
+        color:#82005e;
+    }
+    .SidebarList {
+        border: 1px solid #d7d7d7;
+        border-radius: 12px 0px 0px 12px;
+        height: 100%;
+    }
+    .SidebarList .switchProfileLink{
+        text-transform: uppercase;
+        border-radius: 24px;
+        background: #f62f8a;
+        color: #ffff !important;
+        padding: 14px 32px;
+        display: inline-block;
+        margin: 10px 7px !important;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1;
+        letter-spacing: 0.5px;
+    }
+    .SidebarList .switchProfileLink:hover{
+        background: #f62f8a;
+    }
+    .switchProfileLink svg{
+        color:#fff;
+    }
+    .AddVideoInstruct path {
+        stroke: #f62f8a;
+    }
+    .studentAccountss input{
+        background-color: #fff;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        color: #212121;
+        border: 0px;
+        padding: 16px;
+        border-radius: 24px;
+        border: solid 2px #b2b2b2; 
+    }
+    .studentAccountss input:focus{
+        outline:#f62f8a !important;
+        border:2px solid #f62f8a !important;
+    }
+    .AccountSubtitle{
+        font-size: 14px !important;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        color:#424242 !important;
+    }
+    .studentAccountss .css-kownu1-MuiInputBase-root-MuiInput-root:after{
+        border-bottom: 0px !important;
+    }
+    .classeHeading{
+        font-size: 16px !important;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        color: #82005e !important;
+    }
+    /* .customRadioBtn {
+        padding: 14px 13px 19px 12px;
+        border-radius: 8px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%);
+        background-color: #fff;
+        margin:8px 0px;
+    } */
+    .customRadioBtn input[type="radio"]:checked ~ .classesType {
+        background: #82005e !important;
+        color:#fff  !important;
+    }
+    .customRadioBtn label{
+      width:100% !important;
+      position: relative;
+    }
+    .customRadioBtn input[type="radio"]:checked ~ .classesType .classeHeading{
+        color:#fff !important;
+    }
+    .classesType {
+        position: relative;
+        display: block;
+        width: 100%;
+        padding: 14px;
+        border-radius: 8px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%);
+        background-color: #fff;
+        margin: 8px 0px;
+        position: relative;
+        display: block;
+        width: 100%;
+    }
+    .inputsWrap {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0px;
+        width: 100%;
+        z-indeX: 999;
+        opacity: 0;
+        top: 0;
+        height: 100%;
+    }
+    .stepsHeading{
+        font-size:30px !important;
+        line-height: 35px;
+        color:#424242;
+        margin:15px 0px;
+    }
+    a.availabilityLink {
+        color: #424242 !important;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 17px !important;
+    }
+    .confimationLinks .SignUpBtn,
+    .confimationLinks .SignBtn {
+        display: block;
+        padding:18px 0px;
+        margin:8px 0px !important;
+    }
+    .confirmationHead{
+        font-size:28px !important;
+        color:#424242 !important;
+    }
+    .classesWrap.confirmationSec {
+        background: #f5f5f5;
+        padding: 50px 0px;
+        margin-top: -2rem;
+        height: 100%;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+    .SessionClassDetails {
+        padding: 9px 11px 17px;
+        border-radius: 8px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%);
+        background-color: #fff;
+    }
+    .CourseHeadingss{
+    font-size: 16px !important;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #82005e !important;
+    }
+    .payOutsettings {
+    background: #82005e;
+    padding: 10px 30px 60px;
+    border-radius: 10px 8px 0px 0px;
+    }
+    .payHead {
+        font-size: 17px !important;
+        font-weight: 700 !important;
+        line-height: 1.71;
+        letter-spacing: normal;
+        margin: 0px !important;
+        color: rgba(0, 0, 0, 0.54) !important;
+        cursor: pointer;
+    }
+    span.checkIcon {
+        background: #b1d63d;
+        color: #fff;
+        width: 45px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        border-radius: 50%;
+    }
+    span.checkIcon.error {
+        background: #f46a6a;
+    }
+   .SummaryContent .Summary{
+       display: flex;
+       justify-content: space-between;
+       padding: 8px;
+   }
+   .SubHeadd {
+    color: rgba(33,33,33, 0.7);
+    font-size: 14px;
+    font-weight: 500 !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: right;
+    } 
+   .summaryHead {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    line-height: 1.14;
+    letter-spacing: normal;
+    color:rgba(33, 33, 33, 0.7) !important;
+   }
+   .SummaryContent {
+    background: #fff;
+    padding: 21px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 45%), 0 0 2px 0 rgb(0 0 0 / 12%);
+    }
+    .paymentSubtitle{
+        font-size: 12px;
+        line-height: 1.33;
+        letter-spacing: normal;
+        color:rgba(0, 0, 0, 0.54);
+    }
+    .NotificationsSettingss {
+        background: #fff;
+        padding: 28px;
+        margin-top: -2rem;
+    }
+    span.checkIcon.pending {
+        background: #d1d3d4;
+    }
+    /* calendar */
+    .SessionsCalendar .Calendar {
+        width: 100% !important;
+        background: #d7d7d761;
+        box-shadow: none;
+    }
+    .CalendarSessionDetails {
+        background: #f5f5f5;
+    }
+    .calendarSec .availablelist{
+        display: block !important;
+        width: 100%;
+        text-align: left;
+        }
+    .availabilityDetails {
+        position: relative;
+        margin-left:10px;
+    }
+    .availabilityDetails:before{
+        content:'';
+        width:4px;
+        height:50px;
+        background-color: #f62f8a;
+        left:-12px;
+        position: absolute;
+    }
+    .availabilityDetails {
+        position: relative;
+        margin-left: 10px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+        padding: 10px 0px;
+    }
+    .timingDetails{
+        font-size: 15px !important; 
+        line-height: 2.33;
+        letter-spacing: normal;
+        color: rgba(0, 0, 0, 0.38) !important;
+    }
+    .profileImages {
+        flex-direction: row;
+    }
+    .chatBoxx {
+        padding: 9px 10.2px 4.8px 12px;
+        border-radius: 8px;
+        background: #fff;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%);
+    }
+    .custt-namme {
+        font-size: 16px !important;
+        letter-spacing: normal;
+        color: #212121 !important;
+        font-weight: 500 !important;
+        cursor: pointer;
+    }
+
+
+    .multiSlectors li {
+        padding: 10px 20px;
+        cursor: pointer;
+        margin-top: 20px;
+         padding: 16px 39px 18px 20px; 
+        border-radius: 24px;
+       border: solid 2px grey;
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: 0.5px;
+        color: #b2b2b2;
+    }
+    .multiSlectors li.list-active{
+        border:1px solid red
+    }
+    iframe{
+        z-index: -1!important;
+        height: auto!important;
+    }
+    .Skip-profile {
+        position: absolute;
+        top: 10px;
+        z-index: 99;
+        cursor: pointer;
+        right: 20px;
+        font-size: 12px;
+        color: #424242;
+        text-decoration: none;
+    }
+    .dashboard-view{   
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.71;
+        text-align: center;
+        color: #f62f8a;
+        width:100%;
+        display: inline-block;
+    }
+
+    li.account {
+        width: 494px;
+        height: 55px;
+        padding: 16px 39px 18px 20px;
+        border-radius: 24px;
+        border: solid 2px grey;
+    }
+    .multiSlectors{
+        margin-left: -30px;
+    }
+    .chatBoxx p{
+        font-size: 11px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: rgba(0, 0, 0, 0.38) !important;
+    }
+    .SessionDescription {
+        background: #fff;
+        border-radius: 5px;
+        padding: 20px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%);
+    }
+    .proceed_sessionBtn{
+        background-color: #f62f8a !important;
+        text-transform: uppercase !important;
+        text-align: center !important;
+        display:block !important;
+        padding:20px 0px !important;
+        color:#fff !important;
+        font-stretch: normal !important;
+        font-style: normal !important;
+        line-height: 1 !important;
+        letter-spacing: 0.5px !important;
+        text-decoration: none !important;
+        width: 1111px;;
+    }
+    .reatingsessionBtn{
+        background-color: #f62f8a !important;
+        text-transform: uppercase !important;
+        text-align: center !important;
+        display:block !important;
+        padding:20px 0px !important;
+        color:#fff !important;
+        font-stretch: normal !important;
+        font-style: normal !important;
+        line-height: 1 !important;
+        letter-spacing: 0.5px !important;
+        text-decoration: none !important;
+        width: 300px;
+    }
+    .sessionBtn{
+        background-color: #f62f8a !important;
+        text-transform: uppercase !important;
+        text-align: center !important;
+        display:block !important;
+        padding:20px 0px !important;
+        color:#fff !important;
+        font-stretch: normal !important;
+        font-style: normal !important;
+        line-height: 1 !important;
+        letter-spacing: 0.5px !important;
+        text-decoration: none !important;
+        width: 646px;
+    }
+    .startsessionBtn{
+        background-color: #f62f8a !important;
+        text-transform: uppercase !important;
+        text-align: center !important;
+        display:block !important;
+        padding:20px 0px !important;
+        color:#fff !important;
+        font-stretch: normal !important;
+        font-style: normal !important;
+        line-height: 1 !important;
+        letter-spacing: 0.5px !important;
+        text-decoration: none !important;
+        width: 353px;
+    }
+    .savesessionBtn{
+        background-color: #f62f8a !important;
+        text-transform: uppercase !important;
+        text-align: center !important;
+        display:block !important;
+        padding:20px 0px !important;
+        color:#fff !important;
+        font-stretch: normal !important;
+        font-style: normal !important;
+        line-height: 1 !important;
+        letter-spacing: 0.5px !important;
+        text-decoration: none !important;   
+        width: 515px;
+
+    }
+    .savesessionBtnn{
+        width: 100%;
+    }
+    .Calendar__day.-ltr.orangeDay {
+        border: 1px solid #82005e;
+        background: #82005e;
+        color: white !important;
+    }
+    .paymentbtn{
+        background-color: #f62f8a !important;
+        text-transform: uppercase !important;
+        text-align: center !important;
+        display:block !important;
+        padding:20px 0px !important;
+        color:#fff !important;
+        font-stretch: normal !important;
+        font-style: normal !important;
+        line-height: 1 !important;
+        letter-spacing: 0.5px !important;
+        text-decoration: none !important;
+    }
+    .sessionCancelbtn{
+        text-align: center !important;
+        display:block !important;
+        font-stretch: normal !important;
+        font-style: normal !important;
+        line-height: 1 !important;
+        letter-spacing: 0.5px !important;
+        padding:20px 0px !important;
+        opacity: 0.3 !important;
+        text-transform: uppercase !important;
+        border: solid 1px rgba(0, 0, 0, 0.54) !important;
+        background: rgba(0,0,0,0.5) !important;
+        color: #ffff !important;
+        font-weight: 600 !important;
+        text-decoration: none !important;
+        width: 353px;
+    }
+    .paymentSettings {
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.33;
+        letter-spacing: normal;
+        background: #eeeeee;
+        padding: 10px;
+    }
+    .payHead{
+        font-size: 14px !important;
+        line-height: 2.33;
+        letter-spacing: normal;
+        margin: 0px;
+        color: #424242 !important;
+    }
+    .FilerHeadingg{
+        font-size: 16px !important;
+        font-weight: normal !important;
+        line-height: 1.5;
+        letter-spacing: normal;
+        padding: 10px 0px;
+    }
+    .searchFilter .searchFields {
+        border-radius: 2px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%);
+        background-color: var(--light-white);
+        padding: 5px 10px;
+    }
+    .searchFilter .searchFields .css-gt4wp-MuiInputBase-root-MuiInput-root:before{
+        border-bottom: 0px !important;
+    }
+    .searchFilter .searchFields svg {
+        width: 20px;
+        height: 20px;
+    }
+    .filterText {
+        background: #d1d3d4;
+        border-radius: 16px;
+        padding: 8px 20px;
+        position: relative;
+        margin-right: 14px;
+        margin-bottom: 6px;
+        color: #fff;
+        cursor:pointer;
+    }
+    input.filterData {
+        opacity: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        bottom: 0px;
+    }
+    .filterLabel input[type="radio"]:checked ~ .filterText {
+         background-color: #82005e!important;
+         color:#fff !important;
+    }
+    
+    .StepsContentWrapper svg {
+        font-size: 30px !important;
+    }
+    .StepsContentWrapper .ratingWrap label{
+        color:#f62f8a;
+    }
+    /* dashboard */
+    .DashboardContent{
+        background-color: #f5f5f5;
+        margin-top: -2rem;
+        min-height: 100vh;
+    }
+    .DashboardContent .UserName{
+        font-size: 18px !important;
+        font-weight: 500;
+        line-height: 1.5;
+        color: #82005e !important;
+    }
+    .scheduleClassDetails {
+        padding: 14px 15px;
+        border-radius: 5px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 12%);
+        border: solid 1px #e0e0e0;
+        background-color: #fff;
+        margin: 10px 0px;
+    }
+    .innertext {
+        padding: 8px 0px;
+        border-bottom: 1px solid #e0e0e0;
+    }
+    .scheduleClassDetails .innertext:last-child{
+        border-bottom: 0px !important;
+    }
+    .ChatsSearch{
+        padding: 4px 7px;
+        border-radius: 24px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%);
+        height: unset !important;
+    }    
+    .counterr {
+        background: #ff3742;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 11px !important;
+        margin:0 auto !important
+    }
+    /* .filter_radio_labels label:first-child {
+        display: none;
+    } */
+    .searchFilter .FiledsOuter svg path{
+        color:#82005e;
+        fill: unset;
+    }
+    .searchOptions .MuiOutlinedInput-root.MuiInputBase-root {
+        border-radius: 2px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%);
+    }
+    .searchOptions fieldset{
+        border:0px !important
+    }
+    .searchOptions svg{
+        width: 23px;
+        height: 23px;
+    }
+    .searchOptions input {
+        font-size: 17px;
+    }
+    .searchOptions svg path{
+        color: #82005e;
+        stroke:#82005e !important;
+    }
+    .studentAccountss input:before,
+    .studentAccountss input:after{
+        border-bottom:none !important;
+    }
+    .studentAccountss input:hover:before,
+    .studentAccountss input:hover:after
+    
+    {
+        border-bottom:none !important;
+    }
+    .sessionTimings{
+        font-size: 16px !important;
+        line-height: 1.75 !important;
+        letter-spacing: normal;
+        color: rgba(0, 0, 0, 0.38) !important;
+    } 
+    .searchFilter {
+        border-top: 1px solid rgba(0, 0, 0, 0.12);
+        padding: 4px 0px 5px;
+    }
+    .SearchFilterWrap .filterText {
+        background: #d1d3d4;
+        border-radius: 16px;
+        padding: 6px 15px;
+        position: relative;
+        margin-right: 14px;
+        margin-bottom: 6px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 14px !important;
+    }
+    .SearchFilterWrap .filterText {
+        padding: 6px 15px !important;
+        font-size: 14px !important;
+    }
+    .locationInstructions{
+        font-size: 16px !important;
+        line-height: 1.5;
+        letter-spacing: normal;
+        color: rgba(0, 0, 0, 0.54) !important;
+    }
+    .SessionComingSec{
+        padding: 20px 0px;
+    }
+    .CalendarSessionDetails.sessionComingUp{
+        background-color:#fff;
+    }
+    .sessionContent{
+        color: rgba(0, 0, 0, 0.54)!important;
+        font-size:18px !important;
+    }
+    .TeacherProfile .profileImg {
+        width: 169px;
+        height: 164px;
+    }
+
+    .TeacherFavouriteProfile{
+        background: #ffff;
+        padding: 5px 5px 13px;
+        border-radius: 16px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%);
+        margin-bottom: 10px;
+        position: relative;
+    }
+    .TeacherFavouriteProfile .profileImg {
+        width: 205px;
+        height: 164px;
+    }
+    .searchprofileImg img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 10px;
+    }
+    .TeacherProfile .searchprofileImg {
+        width: 264px;
+        height: 182px;
+    }
+    .StudentProfile{
+        background: #ffff;
+        padding: 5px 5px 13px;
+        border-radius: 16px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%);
+        margin-bottom: 10px;
+        position: relative;
+    }
+    .StudentProfile .profileImg{
+        width: 329px;
+        height: 182px;
+    }
+    .SessionLinkss{
+        font-size: 16px;
+        text-transform: uppercase;
+        line-height: 1;
+        letter-spacing: 0.5px;
+        color: #82005e;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .sessionOuter{
+        background-color: #fff;
+        margin-top:-2rem;
+    }
+    .Location.mapOuter {
+        border-radius: 8px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%);
+        background: #fff;
+        padding: 10px 15px;
+    }
+    /* linear progress */
+    .stepper{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        padding: 0;
+        width: 100%;
+      }
+      .stepper__step{
+        position: relative;
+        flex-flow: row nowrap;
+        width: 100%;
+        margin: 0px 4px;
+        list-style: none;
+      }
+      .StepperBar{
+        background-color:#d8d8d8 !important;
+      }
+      .stepper li:first-child{
+          display: none;
+      }
+      .SummaryContent .Summary a{
+          display:flex;
+          width:100%;
+          align-items:center;
+          justify-content: space-between;
+      }
+      .splashOuter img.ImageStyle {
+        background: #82005e;
+        padding: 10px;
+      }
+      a.BackToHome {
+        color: #82005e;
+        font-size: 14px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+    a.BackToHome svg{
+        color: #82005e;
+        width:20px;
+        height:20px;
+    }
+    .ButtonStyle:focus,
+    .ButtonStyle:hover{
+       background:transparent !important;
+    }
+    
+    .sessionlist{
+        padding-right: 295px;
+    }
+    .iconOuter {
+        font-size: 24px;
+        cursor: pointer;
+    }
+    .iconOuter svg path{
+        color: #e4dfdd;
+    }
+
+    .crossIcon {
+        position: absolute;
+        top: 10px;
+        right: 17px;
+        background: #e4dfdd;
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        ALIGN-ITEMS: center;
+        cursor: pointer;
+    }
+    .crossIcon svg path{
+        color: #f6328c;
+    }
+    .upcomingSession{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #f62f8a;
+    font-family: 'Rubik Regular';
+    }
+    .css-1ms1hje-MuiButtonBase-root-MuiButton-root:hover{
+        text-decoration: none;
+        background-color:none !important;
+    }
+    .threeDoticon{
+        color: #f62f8a;
+    }
+    .tableHeading{
+        background-color: #82005e !important;
+        color: white !important;
+    }
+    .subcontainer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .classDetailsContainer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .editIcon{
+        font-size: 23px;
+        cursor: pointer;
+    }
+    .cover-image{
+        height: 333px;
+    }
+    .checked{  
+     display: flex;
+     align-items: center;
+    }
+    .tabContainer{
+    display: flex !important;
+    justify-content: space-between !important;
+    }
+
+    .menuItem svg path{
+        color: #f62f8a;;
+    }
+    .report-title{
+        color: #f62f8a;
+        margin-left: 5px;
+    }
+    /* media Query */
+    @media only screen and (max-width:1024px){
+        .banner--img{
+            margin-top:30px !important;
+        }
+    }
+    @media only screen and (max-width:767px){
+        a.log-btn {
+            width: 100%;
+            display: block;
+        }
+        a.sign-btn {
+            display: block;
+            width: 100%;
+            margin-top: 15px;
+        }
+        .cont-txt {
+            text-align: center;
+            margin-top: 15px;
+        }
+        a.create-btn {
+            width: 100%;
+            display: block;
+        }
+        .inspiredBanner {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 20px;
+        }
+        .inspiredBanner{
+            padding:40px 30px;
+            margin: 25px 0px 20px;
+        }
+        .InspiredHead{
+            font-size:32px !important;
+            text-align: center;
+            margin-bottom:20px !important;
+        }
+        .SignUpBtn{
+            padding: 12px 33px !important;
+        }
+        .SignBtn{
+            padding: 14px 35px !important;
+        }
+        .mob--btn{
+            text-align:center !important;
+        }
+        .bannerWrap h2 {
+            font-size: 40px !important;
+            font-weight: 500;
+        }
+        .TeacherInfo .slick-dots{
+            bottom:-30px !important;
+        }
+        a.SearchBtn{
+            text-align: center;
+            text-decoration: none;
+        }
+        .ClassesDescription {
+            background: #ffff;
+            padding: 18px 20px;
+        }
+        .classesHeading {
+            font-size: 23px !important;
+        }
+        .mob--list {
+            padding-top: 0px !important;
+        }
+        .infolist{
+            padding-bottom:0px;
+        }
+        /* .DesktopSidebar .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation16.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.css-4t3x6l-MuiPaper-root-MuiDrawer-paper{
+            width:60% !important;
+         } */
+    }
+    @media only screen and (max-width:567px){
+        .payOutsettings .payBox{
+            padding:30px 30px !important;
+        }
+    }
+    @media only screen and (max-width:480px){
+        /* .DesktopSidebar .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation16.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.css-4t3x6l-MuiPaper-root-MuiDrawer-paper{
+            width:70% !important;
+        } */
+        .AboutContentSec {
+            padding: 36px 23px;
+        }
+        .contactBtn{
+            padding:18px;
+        }
+        .onlineClassesBtn{
+            margin-top:10px !important
+        }
+        .FeaturedSlider .slick-dots,
+        .TeacherFilterSlider .slick-dots {
+            position: absolute;
+            bottom: -47px;
+        }
+        .ResultsLink {
+            padding: 7px 6px !important;
+        }  
+        .mob--form{
+            padding:14px !important;
+        }
+        .FormOuter{
+            padding:20px 15px !important;
+        }
+        .conditions{
+            font-size:14px !important;
+        }
+        h2.HeadingText{
+            font-size:20px !important;
+        }
+        a.LoginbtnLink{
+            padding: 14px !important;
+            margin-bottom: 10px !important;
+        }
+        .SignUpFrom{
+            padding:8px !important;
+        }
+        .saveBtn{
+            width:unset !important;
+        }
+    }
+    
+    @media only screen and (max-width:375px){
+        .TeacherProfile .profileImg {
+            width: 100%;
+        }
+        .SlideWrap{
+            height:100%;
+        }
+    }
+    .video_controller_wrap {
+        position: absolute;
+        z-index: 999;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    /* 23 Sept */
+    .no-arrows input::-webkit-outer-spin-button{
+        -webkit-appearance: none !important;
+        appearance: none !important;
+    }
+    .no-arrows input::-webkit-inner-spin-button {
+        -webkit-appearance: none !important;
+        appearance: none !important;
+    }
+
+    .no-arrows input[type=number] {
+        appearance: none !important;
+        -moz-appearance: textfield !important;
+    }
+    .no-arrows input[type=number]:focus{
+        -moz-appearance: number-input !important;
+    }
+    .Topics_tags_info a{
+     cursor: default !important;
+    }
+    .hover-cursor{
+        cursor:pointer !important;
+    }
+    .hover-cursor input:hover{
+       cursor:pointer !important;
+    }
+    .state_fields {
+        padding: 8px 12px !important;
+        border-radius: 2px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%) !important;
+        background-color: #fff;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        color: #212121;
+        border: 0px;
+        margin-top: 0px !important;
+    }
+    .state_fields:after {
+        border-bottom: 0px !important;
+    }
+    .state_fields:before {
+        border-bottom: 0px !important;
+    }
+    .state_fields:hover:before {
+        border-bottom: 0px !important;
+    }
+    .create_account_text {
+        color: #82005e !important;
+        font-weight: 600 !important;
+        text-decoration:underline !important;
+    }
+    .no-arrows-login::-webkit-outer-spin-button{
+        -webkit-appearance: none !important;
+        appearance: none !important;
+    }
+    .no-arrows-login::-webkit-inner-spin-button {
+        -webkit-appearance: none !important;
+        appearance: none !important;
+    }
+    .students_phn {
+        height: 56px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 15%);
+        border-radius: 6px;
+        border: 0px !important;
+    }
+    .pink-plus-one {
+        color: #82005e;
+    }
+    span#student_phonee {
+        background: #fff;
+    }
+    span#plus-one-student {
+        background: #fff;
+        color: #82005e;
+    }
+    .students_phn input:focus{
+        box-shadow: none !important;
+        border:1px solid #ced4da !important;
+    }
+    .no-arrows-login {
+        font-size: 13px !important;
+    }
+    .no-arrows-login::placeholder{
+        color:rgba(0, 0, 0, 0.34) !important;
+    }
+
+    .teachers_phn {
+        height: 56px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 15%);
+        border-radius: 6px;
+        border: 0px !important;
+    }
+
+    .teachers_phn input:focus{
+        box-shadow: none !important;
+        border:1px solid #ced4da !important;
+    }
+    span#plus-one-teachers{
+        background: #fff;
+        color: #82005e;
+    }
+    span#teachers_phonee{
+        background: #fff;
+    }
+
+    .loggg_phn{
+        height: 56px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 15%);
+        border-radius: 6px;
+        border: 0px !important;
+    }
+    .uploadImage input[type="file"]:hover {
+        cursor: pointer !important;
+    }
+    .StudentProfile .TopicLinks {
+        margin-top: 10px !important;
+        display: inline-block !important;
+    }
+    .tag-topic-input.class_desc_tags {
+        margin-top: 0px !important;
+    }
+    .class_desc_tags .tags-topic{
+        font-family: 'Rubik Regular';
+    }
+    .class_desc_tags input[type="text"] {
+        font-family: 'Rubik Regular';
+    }
+    .class_first_sect input[type="text"] {
+        font-size: 14px !important;
+    }
+    .class_first_sect textarea {
+        font-size: 14px !important;
+        font-family: 'Rubik Regular';
+    }
+    .class_first_sect textarea::placeholder {
+        color: #21212178 !important;
+    }
+    .class_desc_tags input[type="text"]::placeholder {
+        color: #21212178 !important;
+    }
+    .step_one_class_level {
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%) !important;
+    }
+    .step_one_class_level fieldset.MuiOutlinedInput-notchedOutline {
+        border: 0px !important;
+    }
+    .video-instrct-divv input[type="file"]:hover {
+        cursor: pointer !important;
+    }
+
+    #file-upload {
+        display: none;
+    }
+    .custom-file-upload {
+        font-family: 'Rubik Regular';
+        color:#f62f8a;
+        font-size:16px;
+        font-weight: 500;
+        /* border: 1px solid #ccc; */
+        display: inline-block;
+        padding: 6px 12px 6px 0px;
+        cursor: pointer !important;
+        border-bottom: 1px solid #000;
+    }
+    .file_upl_techr svg path {
+        stroke: #f62f8a !important;
+    }
+    .file_upl_techr svg {
+        font-size: 20px;
+    }
+    .same_height_othrs .MuiSelect-select {
+        padding: 12px !important;
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .state_fields {
+        padding: 8px !important;
+        font-size: 16px !important;
+    }
+    .state_fields .MuiSelect-select:focus{
+        background-color: unset !important;
+    }
+    .stud_field_state .MuiSelect-select {
+        padding: 12px;
+        border-radius: 2px;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%) !important;
+        background-color: #fff !important;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        color: #212121;
+        border: 0px;
+    }
+    .stud_field_state {
+        margin-top: 0px !important;
+    }
+    .student_gendr{
+        font-size: 16px !important;
+    }
+    .student_gendr .MuiSelect-select {
+        padding: 12px !important;
+    }
+    .studentCoverPhoto {
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #424242 !important;
+        margin-bottom: 10px;
+        font-size: 14px !important;
+        transform: none !important;
+        font-weight: 600 !important;
+    }
+    #file-upload-image-teacher{
+        /* display:none; */
+        position: absolute;
+        top: 15px;
+        left: 10px;
+        opacity: 0;
+    }
+    /* #file-upload-image-teacher {
+        position: relative;
+        width: 100%;
+        opacity: 0;
+        left: 10px;
+        top: 15px;
+        }
+    .New_Upload_Section {
+        position: relative;
+    } */
+    .custom-teacherfile-upload {
+        border: 1px solid #e0e0e0;
+        /* position: absolute; */
+        /* display: inline-flex;  */
+        display: inline-block;
+        padding: 6px 12px;
+        cursor: pointer;
+        width: 100%;
+        background: #e0e0e0;
+        border-radius: 10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        z-index: 999 !important;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%);
+    }
+    .New_Upload_Section{
+        position: relative;
+    }
+    .date_fields_hover input::-webkit-calendar-picker-indicator {
+        cursor: pointer !important;
+    }
+    .time_fields_hover input::-webkit-calendar-picker-indicator {
+        cursor: pointer !important;
+    }
+
+    .what-expertise input {
+        font-size: 14px !important;
+        font-family: 'Rubik Regular' !important;
+    }
+
+    .tell_us_field{
+        font-size: 14px !important;
+        font-family: 'Rubik Regular' !important; 
+    }
+    .tell_us_field::placeholder {
+        color: #21212178 !important;
+    }
+    .no-tags-margin {
+        margin-top: 0px !important;
+    }
+    .no-tags-margin input[type="text"]::placeholder {
+        color: #21212178 !important;
+        font-family: 'Rubik Regular' !important; 
+    }
+    input[type='number'] {
+       -moz-appearance: textfield !important;
+    }
+
+    /* Search Page Results */
+    .teacher_search_results {
+        background: #ffff;
+        padding: 5px 5px 13px;
+        border-radius: 16px !important;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%);
+        margin-bottom: 10px;
+        position: relative;
+    }
+    .results_filter_image {
+      height: 182px;
+    }
+    .results_filter_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.results_card_content {
+    padding: 5px 2px !important;
+}
+
+.search_results_title:hover {
+    cursor: pointer;
+    color: #82005e;
+    transition: all .4s;
+}
+.search_teacher_info {
+    color: gray;
+    margin-bottom: 0;
+}
+
+a.SearchBtn:hover {
+    color: #fff !important;
+    background: #5a064f;
+    border: 1px solid #5a064f;
+}
+a.acc-link:hover {
+    color: #82005e !important;
+}
+.customRadioBtn input[type="radio"]{
+    cursor:  pointer !important;
+}
+
+/* my-payouts-section */
+.my_payout_header {
+    display: flex;
+    justify-content: space-between;
+}
+.payout_search_button svg {
+    color: #fff;
+}
+
+.sessionBtn_pay{
+background-color: #f62f8a !important;
+text-transform: uppercase !important;
+text-align: center !important;
+display: block !important;
+padding: 20px 0px !important;
+color: #fff !important;
+font-stretch: normal !important;
+font-style: normal !important;
+line-height: 1 !important;
+letter-spacing: 0.5px !important;
+text-decoration: none !important;
+width: 472px;
+}
+.payout_filterText{
+background: #d1d3d4;
+border-radius: 50px;
+padding: 8px 20px;
+position: relative;
+margin-right: 14px;
+margin-bottom: 6px;
+color: #131313;
+cursor: pointer;
+}
+.filterLabel input[type="radio"]:checked ~ .payout_filterText {
+    background-color: #82005e!important;
+    color: #fff !important;
+}
+
+
+/*  3 oct 2022 */
+.main_cntner_boxx {
+    height: 100%;
+}
+.teacher_search_results {
+    height: 100%;
+}
+.main_cntner_area {
+    margin-bottom: 16px !important;
+}
+.favorites_data {
+    padding: 15px;
+}
+
+.teacher_favstudent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.teacher_favstudent .SlideWrap {
+    width: 100%;
+    height: 100% !important;
+}
+.teacher_favstudent .SlideWrap .StudentProfile{
+    height: 100% !important;
+}
+
+.teacher_favstudent .StudentProfile .profileImg {
+    width:100% !important;
+    margin-bottom: 15px;
+}
+.my_students {
+    text-align: left;
+}
+.my_favorites{
+    text-align: left;
+}
+.teacher_favstudent .SlideWrap .StudentProfile a.TopicLinks.mb-2 {
+    font-size: 13px !important;
+    margin-bottom: 0px !important;
+}
+.student_myfavteacher {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.student_myfavteacher .SlideWrap {
+    width: 100%;
+    height: 100% !important;
+}
+.student_myfavteacher .TeacherFavouriteProfile .profileImg {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
+.student_myfavteacher .SlideWrap .TeacherFavouriteProfile {
+    height: 100%;
+}
+.map_cmplt{
+    min-height: 51.69px !important;
+    height: 51.69px !important;
+    max-height: 51.69px !important;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%) !important;
+}
+.auto_inpt_box .css-yk16xz-control {
+    border: 0px !important;
+    border-color: transparent !important;
+    min-height: 51.69px !important;
+    height: 51.69px !important;
+    max-height: 51.69px !important;
+}
+.auto_inpt_box .css-1pahdxg-control{
+    border: 0px !important;
+    border-color: transparent !important;
+    min-height: 51.69px !important;
+    height: 51.69px !important;
+    max-height: 51.69px !important;
+    box-shadow: unset !important;
+}
+.auto_inpt_box span.css-1okebmr-indicatorSeparator {
+    display: none !important;
+}
+.auto_inpt_box .css-tlfecz-indicatorContainer {
+    color: #757575 !important;
+}
+.auto_inpt_box .css-1pahdxg-control:hover{
+    border-color: transparent !important;
+}
+.auto_inpt_box .css-2613qy-menu{
+    z-index: 9999 !important;
+}
+.students_many {
+    z-index: 0 !important;
+}
+.auto_inpt_box .css-1wa3eu0-placeholder {
+    font-family: 'Rubik Regular';
+    font-size: 13px;
+    color: #000000d9;
+}
+
+.notification-listing-screen {
+    border-radius: 10px 8px 0px 0px !important;
+}
+.clr_all_bttn {
+    border: 1px solid #fff !important;
+    color: #fff !important;
+}
+.clr_all_bttn:hover {
+    border: 1px solid #000 !important;
+    color: #fff !important;
+}
+.icon_notify_area {
+    margin-right: 20px;
+}
+.NotificationsSettingss {
+    border-radius: 0px 0px 10px 10px;
+}
+/* 11 oct */
+.zip_area_info input::-webkit-outer-spin-button,
+.zip_area_info input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.date_birth input::-webkit-calendar-picker-indicator {
+    cursor: pointer !important;
+}
+.techr_full_width {
+    width: 100% !important;
+}
+.tag-topic-input.no-top-margin {
+    margin-top: 0px !important;
+}
+.tag-topic-input.no-top-margin input{
+    padding-bottom:4px !important;
+}
+.tag-topic-input.no-top-margin input::placeholder {
+    font-size: 16px;
+    color: #212121 !important;
+    font-family: 'Rubik Regular';
+}
+.no-tags-margin input{
+    padding-bottom:4px !important;
+}
+.tag-topic-input.no-tags-margin input::placeholder {
+    font-size: 14px;
+    color: #212121 !important;
+    font-family: 'Rubik Regular';
+}
+.extreme-mrgn {
+    margin-top: 25px;
+}
+.main_indx_slider .slick-list{
+    width:100%;
+}
+a.BackToHome:hover {
+    color: #f62f8a;
+}
+.notification_button button {
+    padding: 0px !important;
+}
+.notification_no_records{
+    font-family: 'Rubik Regular' !important;
+}
+.no_class_records {
+    font-family: 'Rubik Regular';
+}
+.main_indx_slider .slick-track {
+    margin-left: 0px !important;
+}
+.no_records_found{
+    font-family: 'Rubik Regular' !important;
+}
+.nobrdr_inpt {
+    border: 0px !important;
+    padding: 12px;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%) !important;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #212121;
+    font-family: 'Rubik Regular' !important;
+    margin-bottom: 0px;
+}
+button.refund_modal_button {
+    background: #82005e !important;
+    border: 1px solid #82005e !important;
+    font-family: 'Rubik Regular' !important;
+    border-radius: 5px !important;
+    padding: 12px 0px;
+    height: unset;
+    line-height: 22px;
+}
+.reason_apply_title{
+    font-family: 'Rubik Medium';
+    font-size: 26px;
+    color: #000;
+}
+.dateofbirth input::-webkit-calendar-picker-indicator {
+    cursor: pointer !important;
+}
+.cancel_title{
+    font-family: 'Rubik Medium';
+    font-size: 26px;
+    color: #000;
+}
+.nobrdr_inpt_cancel{
+    border: 0px !important;
+    padding: 12px;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%) !important;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #212121;
+    font-family: 'Rubik Regular' !important;
+    margin-bottom: 0px;
+}
+.cancel_modal_button{
+    background: #82005e !important;
+    border: 1px solid #82005e !important;
+    font-family: 'Rubik Regular' !important;
+    border-radius: 5px !important;
+    padding: 12px 0px;
+    height: unset;
+    line-height: 22px;
+}
+span.tag-topic-title {
+    font-family: 'Rubik Regular';
+}
+.icons-area {
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 12%);
+}
+.icons-area a{
+    font-size: 16px !important;
+    text-align: center;
+    color: #0000008a !important;
+    margin: 0;
+    font-family: "Rubik Medium";
+    text-decoration: none !important;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 0.35em;
+}
+.three_box_areas {
+    border: solid 1px #e0e0e0;
+    text-align: center;
+    padding: 40px 20px;
+}
+.three_box_areas svg {
+    color: #82005e;
+    width: 30px !important;
+    height: 30px !important;
+    margin-bottom: 10px;
+}
+.three_box_areas p {
+    margin-bottom: 0px;
+}
+@media (max-width:767px){
+    .teacherInfoWrap video {
+        width: 100%;
+    }
+}
+
+@media (min-width:600px) and (max-width:700px){
+   .teacherInfoWrap .saveBtn {
+    width: unset !important;
+    margin-left: 0px !important;
+}
+}
+
+.home_search_box .MuiOutlinedInput-root {
+    padding: 5px 15px !important;
+    border-radius: 50px;
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%) !important;
+    color: #3f3b3b;
+    font-family: 'Rubik Regular' !important;
+}
+svg.srch_btn_icn {
+    font-size: 18px !important;
+}
+button.srch_home_bttn {
+    border: 0px;
+    background: transparent !important;
+}
+button.srch_home_bttn:hover svg {
+    color: #81005d !important;
+}
+.sessn_button {
+    width: 100%;
+}
+button.clear_filter {
+    background: none;
+    border: 0;
+    font-size: 15px;
+    color: #f62f8a;
+    float: right;
+    margin-right: 5%;
+    bottom: 0px;
+}
+.display_price {
+    color: #82005e;
+    font-weight: bold;
+    margin: 5px 0px;
+    padding: 5px;
+}
+.style_txt_stripe {
+    background: #ffffff !important;
+    height: 48px !important;
+    border: .5px solid #dbd9d9 !important;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 0 0 2px 0 rgb(0 0 0 / 12%) !important;
+    padding: 12px !important;
+    margin-bottom: 20px !important;
+}
+.card_name_stripe .MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-colorPrimary:before{
+    border-bottom: 0px !important;
+}
+
+.card_name_stripe .MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-colorPrimary:after{
+    border-bottom: 0px !important;
+}
+.card_stripe_form iframe{
+    height: 20px !important;
+}
+.stripe_payment_bttn{
+    width:100% !important;
+    border:1px solid #f52f8a;
+}
+.sessionBtnn {
+    width: 100%;
+}
+.loader_svg_on_clear_filter{
+    color: #f62f8a;
+    justify-content: center;
+    text-align: center;
+    height: 55vh;
+}
+.loader_svg_on_clear_filter span{
+    margin-top: 25%;
+}
+.Calendar__day.-ltr.-weekend.orangeDay.-disabled {
+    border: 0px;
+    color: #d4d4d4 !important;
+}
+.student_datePicker .react-date-picker__calendar.react-date-picker__calendar--open{
+    z-index: 99999 !important;
+}
+.n-z-indx{
+    z-index: 99 !important;
+}
+
+/* 20 Nov */
+
+.student-chat-area-teacher .str-chat__header-livestream {
+    background: unset !important;
+    box-shadow: unset !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.student-chat-area-teacher{
+background: #fcfcfc;
+box-shadow: 0 7px 9px 0 #00000014,0 1px 0 0 #00000014;
+border-radius:16px 16px 0px 0px;
+border-bottom: 1px solid #fefefe !important;
+z-index: 1;
+}
+.student-chat-area-teacher {
+    align-items: center;
+}
+.text-right-student{
+    text-align:right;
+}
+.student-teacher-chat-button{
+    width: 100% !important;
+    background: #f62f8a !important;
+    text-transform: uppercase !important;
+    font-family: 'Rubik Regular' !important;
+    border: 1px solid #f62f8a!important;
+    padding: 15px !important;
+    font-size: 15px !important;
+    border-radius: 0px !important;
+}
+svg.wvng-icn {
+    color: #82005e;
+    font-size:20px;
+}
+.teacher-name-chat{
+    color: #82005e;
+}
+button.str-chat__header-hamburger {
+    padding: 8px !important;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    background: unset;
+
+}
+button.str-chat__header-hamburger span {
+    background: #82005e;
+}
+
+.str-chat__header-hamburger:hover .str-chat__header-hamburger--line {
+    background: #82005e !important;
+}

@@ -1,0 +1,1074 @@
+
+.side-accr .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded {
+    box-shadow: unset;  
+}
+.user-side-calender .Calendar {
+    width: 100%;
+    box-shadow: unset;
+}
+.user-side-calender .MuiAccordionDetails-root {
+    padding: 0;
+}
+.admni-sect {
+    background: rgba(106, 113, 135, 0.1);
+    padding: 15px;
+}
+.ext-spc .MuiFormControl-root.css-1nrlq1o-MuiFormControl-root:not(:last-child) {
+    margin-right: 14px;
+}
+.userProfile.d-flex.w-100 {
+    cursor: pointer !important;
+}
+p.go-bck-opt {
+    text-align: center;
+    color: #fff;
+    background: #521340;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 50px;
+}
+select#user-status {
+    padding: 6px 8px 6px 13px;
+    border-radius: 4px;
+    border: solid 1px #ced4da;
+    background-color: #fff;
+    min-width: 200px;
+    font-size: 15px;
+}
+select#user-type {
+    padding: 6px 8px 6px 13px;
+    border-radius: 4px;
+    border: solid 1px #ced4da;
+    background-color: #fff;
+    min-width: 200px;
+    font-size: 15px; 
+}
+.name-user {
+    text-decoration: none !important;
+}
+.ext-spc .MuiInput-root.MuiInput-underline.MuiInputBase-root:hover:not(.Mui-disabled):before{
+    border-bottom:0;
+}
+.ext-spc .MuiInput-root.MuiInput-underline:before {
+    border-bottom: 0px !important;
+}
+.user-head {
+    border-bottom: 1px solid rgb(106 113 135 / 20%);
+    padding-bottom: 10px;
+}
+.user-info-form label {
+    font-family: 'Rubik Regular';
+    font-size: 15px !important;
+    font-weight: 600;
+}
+.user-info-form input {
+    border-radius: 4px;
+    border: solid 1px #ced4da;
+    background-color: #fff;
+    font-size: 13px;
+    padding: 0px 0px 0px 10px;
+    height: 34px;
+}
+.user-info-form .MuiInput-root.MuiInput-underline:before {
+    border-bottom: 0px !important;
+}
+.user-info-form .MuiInput-root.MuiInput-underline:after {
+    border-bottom: 0px !important;
+}
+.user-info-form .MuiInput-root.MuiInput-underline {
+    margin-top: 20px;
+}
+.user-info-form .MuiFormControl-root {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.user-info-form .MuiGrid-root {
+    padding-right: 10px;
+}
+.user-info-form .css-1dmqq7i-MuiNativeSelect-select-MuiInputBase-input-MuiInput-input:focus{
+background-color: unset !important;
+}
+.user-info-form .css-1dmqq7i-MuiNativeSelect-select-MuiInputBase-input-MuiInput-input{
+    border-radius: 4px;
+    border: solid 1px #ced4da;
+    padding: 0px 0px 0px 10px;
+    height:34px;
+}
+select#gender-identity {
+    font-size: 13px;
+    /* color:#ced4da; */
+}
+.save-sct {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+.text-rght{
+    text-align: right;
+}
+.sve-btn {
+    margin-right: 15px !important;
+}
+.archve svg {
+    width: 30px !important;
+    height: 20px !important;
+}
+.archve h6 {
+    padding: 6px 0px;
+}
+.archve h6 a{
+  text-decoration: unset;
+}
+.archve h6 a:hover{
+    cursor: pointer;
+}
+.user-profile-pic label {
+    font-family: 'Rubik Regular';
+    font-size: 15px !important;
+    font-weight: 600;
+}
+/* Recent User Tables css  */
+.recent-users thead {
+    background: rgb(106 113 135 / 20%);
+}
+.recent-users thead tr th span {
+    font-family: 'Rubik Regular';
+    font-size: 13px;
+    color: #495057;
+    font-weight: 500;
+}
+.recent-users tr td {
+    vertical-align: middle;
+}
+.table.recent-users {
+    border-collapse: unset;
+    border-spacing: 0;
+}
+.table.recent-users tr td {
+    color: #495057;
+    font-size: 13px;
+    font-family: 'Rubik Regular';
+}
+.table.recent-users tr td p {
+    margin-bottom: 0px;
+}
+.edit-userbtn {
+    background: transparent;
+    border: 0;
+}
+.delete-userbtn {
+    background: transparent;
+    border: 0;
+}
+.edit-userbtn svg {
+    width: 22px;
+    height: 22px;
+    color: #6a7187;
+    margin-right:5px;
+}
+.delete-userbtn svg {
+    width: 22px;
+    height: 22px;
+    color: #6a7187;
+}
+.recnt-usr-list .MuiListItemAvatar-root {
+    min-width: 40px;
+    margin-right: 10px;
+}
+.recent-users thead tr th:last-child {
+    text-align: right;
+}
+.recent-users thead tr td:last-child {
+    text-align: right;
+}
+.recent-users thead tr th:first-child {
+    /* padding-left: 35px; */
+}
+.spc-extra-rght {
+    margin-right: 10px !important;
+}
+.payment-selection .MuiSelect-select.MuiSelect-outlined:focus {
+    outline: none;
+    border: 2px solid #6a7187;
+    border-radius: 50px;
+}
+.payment-selection .MuiSelect-select {
+    border: 2px solid #6a7187;
+    padding: 5px 0px 5px 14px;
+    background: #6a7187;
+    color: #fff;
+    border-radius: 50px;
+}
+.slct-paymnt .MuiOutlinedInput-root {
+    border-radius: 50px;
+}
+.slct-paymnt {
+    min-width: 128px;
+}
+.recent-transactions thead tr th span {
+    font-family: 'Rubik Regular';
+    font-size: 13px;
+    color: #495057;
+    font-weight: 500;
+}
+.recent-transactions thead tr th:first-child {
+    /* padding-left: 35px; */
+}
+.recent-transactions thead {
+    background: rgb(106 113 135 / 20%);
+}
+/* .recent-transactions thead tr th:nth-child(3) {
+    width: 30%;
+} */
+.recent-transactions tr td {
+    color: #495057;
+    font-size: 13px;
+    font-family: 'Rubik Regular';
+}
+.recent-transactions tr td {
+    vertical-align: middle;
+}
+.table.recent-users tbody tr:last-child {
+    border: 0px;
+    border-color: #fff;
+}
+.table.recent-transactions tbody tr:last-child {
+    border: 0px;
+    border-color: #fff;
+}
+.payment-selection svg{
+    color: #fff;
+}
+.add-new-user {
+    border-radius: 50px !important;
+    margin-left: 15px !important;
+}
+.search-field .MuiFormControl-root {
+    width: 100%;
+}
+.search-field .MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-formControl {
+    width: 100%;
+}
+.filter-area .MuiFormControl-root {
+    width: 100%;
+}
+.filter-area .MuiInput-root.MuiInput-underline.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-formControl {
+    margin-top: 20px;
+}
+.filter-area .MuiSelect-select.MuiSelect-standard {
+    background: #fff;
+    padding-left: 6px;
+}
+.filter-area .MuiInput-root.MuiInput-underline.MuiInputBase-root {
+    height: 36px;
+    border-radius: 4px;
+    border: solid 1px #ced4da;
+    background: #fff;
+}
+.filter-area input.MuiInputBase-input {
+    font-size: 13px;
+}
+.filter-area .MuiSelect-select.MuiSelect-standard.MuiInput-input {
+    font-size: 13px;
+    color: #6a7187;
+}
+.filter-area .MuiInputBase-formControl:before {
+    border-bottom: 0px !important;
+}
+.filter-area .MuiInputBase-formControl:after {
+    border-bottom: 0px !important;
+}
+ul.MuiList-root li {
+    font-size: 13px !important;
+}
+.users-list-table {
+    background: #fff;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+.pagination-section {
+    display: flex;
+    justify-content: center;
+}
+.user-profile-pic .MuiFormControl-root.css-1nrlq1o-MuiFormControl-root {
+    width: 100%;
+}
+.profile-pic {
+    width: 90px;
+    height: 90px;
+    border: 1px solid #ced4da;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+.profile-pic img{
+    height:100%;
+    border-radius: 50%;
+}
+.upload-icon input[type='file'] {
+    color: rgba(0, 0, 0, 0)
+}
+.side-upload-button {
+    width: 36px !important;
+    height: 36px !important;
+    display: inline !important;
+    padding: 12px 11px !important;
+    border-radius: 50px !important;
+}
+.side-upload-button svg {
+    width: 20px;
+    height: 20px;
+}
+.upload-icon {
+    position: absolute;
+    display: block;
+    left: 50px;
+    bottom: 0px;
+}
+.upload-icon.edit-wrap{
+    bottom:-32px !important;
+}
+.edit-icon-wrap{
+    position: absolute;
+    inset: 0px;
+    background: #82005e;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.edit-icon-wrap svg{
+    color: #fff;
+    cursor:pointer;
+
+}
+.rest-passwrd{
+    cursor:pointer;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.new-user-profile-pic{
+    
+}
+.new-user-image-area{
+    text-align:center;
+}
+.tabs-user-info button{
+text-transform: uppercase;
+font-family: 'Rubik Medium';
+}
+.not-available{
+    position: relative;
+}
+.not-available:before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #d8d8d8;
+    left: 0;
+}
+.gender-list {
+    border-radius: 4px;
+    border: solid 1px #ced4da;
+    background-color: #fff;
+    font-size: 12px;
+    padding: 0px 0px 0px 0px;
+    height: 36px;
+}
+.gender-list .MuiSelect-select.MuiSelect-standard {
+    font-size: 13px;
+    padding-left: 5px;
+}
+.timezone-list{
+    border-radius: 4px;
+    border: solid 1px #ced4da;
+    background-color: #fff;
+    font-size: 12px;
+    padding: 0px 0px 0px 0px;
+    height: 36px;
+}
+.timezone-list .MuiSelect-select.MuiSelect-standard {
+    font-size: 13px;
+    padding-left: 5px;
+}
+.timezone-list .MuiSelect-select.MuiSelect-standard:focus {
+    background: #fff;
+}
+.usertype-status{
+    border-radius: 4px;
+    border: solid 1px #ced4da;
+    background-color: #fff;
+    font-size: 12px !important;
+    padding: 0px 0px 0px 0px;
+    height: 36px;
+    background-color: #fff;
+    min-width: 200px;
+    margin-top: 20px;
+}
+.usertype-status .MuiSelect-select{
+padding: 0px 0px !important;
+}
+.usertype-list{
+    border-radius: 4px !important;
+    border: solid 1px #ced4da;
+    background-color: #fff;
+    font-size: 12px !important;
+    padding: 0px 0px 0px 0px;
+    height: 36px;
+    min-width: 200px;
+    margin-top: 20px;
+}
+.usertype-list .MuiSelect-select{
+    padding: 0px 0px !important;
+}
+.usertype-status:hover .MuiOutlinedInput-notchedOutline{
+border-color: #fff !important;
+}
+.usertype-status .MuiOutlinedInput-notchedOutline{
+    border: 0 !important;
+    }
+.usertype-list:hover .MuiOutlinedInput-notchedOutline{
+    border-color: #fff !important;
+}
+.usertype-list .MuiOutlinedInput-notchedOutline{
+    border: 0 !important;
+}
+.usertype-status .MuiSelect-select.MuiSelect-outlined {
+    padding: 0px 10px !important;
+}
+.usertype-list .MuiSelect-select.MuiSelect-outlined {
+    padding: 0px 10px !important;
+}
+.recnt-usr-list li h5 a {
+    color: #495057 !important;
+    text-decoration: none;
+}
+.recnt-usr-list li h5 a:hover {
+color:#82005e !important;
+}
+.payment-selection fieldset.MuiOutlinedInput-notchedOutline {
+    border: 0px;
+}
+.add-new-user:hover {
+    color: #fff !important;
+}
+.filter-role-area .MuiFormControl-root.css-1nrlq1o-MuiFormControl-root {
+    width: 100%;
+}
+.filter-role-area .MuiSelect-select.MuiSelect-standard.MuiInput-input {
+    font-size: 13px;
+    color: #6a7187;
+}
+.filter-role-area .MuiSelect-select.MuiSelect-standard {
+    background: #fff;
+    padding-left: 6px;
+}
+.filter-role-area .MuiInput-root.MuiInput-underline.MuiInputBase-root {
+    height: 36px;
+    border-radius: 4px;
+    border: solid 1px #ced4da;
+    background: #fff;
+    margin-top:25px !important;
+}
+.filter-role-area .MuiInputBase-formControl:before {
+    border-bottom: 0px !important;
+}
+.filter-role-area .MuiInputBase-formControl:after {
+    border-bottom: 0px !important;
+}
+.new-user-fields {
+    margin-top: 20px !important;
+}
+.new-user-fields input {
+    padding: 0px 0px 0px 10px;
+    font-size: 13px;
+    height: 36px;
+    border-radius: 4px;
+    border: solid 1px #ced4da;
+    background: #fff;
+    color: #6a7187;
+}   
+.main-new-user-area .MuiFormControl-root {
+    width: 100%;
+}
+.main-new-user-area .MuiInput-root.MuiInput-underline.MuiInputBase-root:before{
+    border-bottom: 0px !important;
+}
+.main-new-user-area .MuiInput-root.MuiInput-underline.MuiInputBase-root:after{
+    border-bottom: 0px !important;
+}
+.txtarea-pass fieldset.MuiOutlinedInput-notchedOutline {
+    border: 0px !important;
+}
+.genr-pass input#outlined-adornment-password {
+    padding: 0px;
+}
+.genr-pass input {
+    font-size: 13px;
+    height: 36px;
+    background: #fff;
+    color: #6a7187;
+}
+.genr-pass {
+    border-radius: 4px;
+    margin-top: 5px !important;
+    padding: 0px 10px !important;
+    border: solid 1px #ced4da !important;
+}
+.genr-pass fieldset.MuiOutlinedInput-notchedOutline {
+    border: 0px !important;
+}
+.generate-passwrd label{
+color: rgba(0, 0, 0, 0.6);
+    /* font-size: 10px; */
+    font-family: 'Rubik Regular';
+    font-weight: 400;
+}
+.account-fields{
+    margin-top: 20px !important;
+    border: solid 1px #ced4da !important;
+    /* height: 36px !important; */
+    border-radius: 4px;
+}
+.create-account-section .MuiFormControl-root {
+    width: 100%;
+    /* height: 100% !important; */
+}
+.account-fields .MuiInput-root.MuiInput-underline.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-fullWidth:before {
+    border-bottom: 0px !important;
+    }
+.account-fields .MuiInput-root.MuiInput-underline.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-fullWidth:after {
+        border-bottom: 0px !important;
+}
+.passwrd-teacher input#outlined-adornment-password {
+    padding: 0px;
+}
+.teacher-pass fieldset.MuiOutlinedInput-notchedOutline {
+    border: 0px;
+}
+.passwrd-teacher {
+    height: 31px;
+    border-radius: 4px Im !important;
+    border: solid 1px #ced4da;
+    background: #fff;
+    color: #6a7187 !important;
+    margin-top: 19px;
+}
+.confirm-passwrd-teacher{
+    height: 31px;
+    border-radius: 4px Im !important;
+    border: solid 1px #ced4da;
+    background: #fff;
+    color: #6a7187 !important;
+    margin-top: 19px;
+}
+.create-basic-section .MuiFormControl-root{
+    width:100% !important;
+    margin-top: 20px;
+    margin-bottom:0px;
+}
+
+.create-basic-section input {
+    border-radius: 4px !important;
+    border: solid 1px #ced4da;
+    background: #fff;
+    color: #6a7187 !important;
+    padding-left: 10px;
+}
+.create-basic-section input::placeholder {
+    color: #6a7187 !important;
+    opacity: 1;
+}
+.create-basic-section .MuiInput-root.MuiInput-underline.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-fullWidth:before {
+    border-bottom: 0;
+}
+.create-basic-section .MuiInput-root.MuiInput-underline.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-fullWidth:after {
+    border-bottom: 0;
+}
+.gender-selection .MuiSelect-select.MuiSelect-outlined.MuiOutlinedInput-input.MuiInputBase-input {
+    padding: 0px;
+}
+.gender-selection.css-13smwzo-MuiInputBase-root-MuiOutlinedInput-root {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    height: 31px;
+    padding-left: 10px;
+}
+.gender-selection fieldset.MuiOutlinedInput-notchedOutline{
+border:0;
+}
+.slct-gender label{
+    transform: none;
+}
+label{
+    /* transform: none !important; */
+}
+.innr-flds .MuiFormControl-root {
+    width: 100%;
+}
+.expertise-fields {
+    border-radius: 4px !important;
+    border: solid 1px #ced4da !important;
+    background: #fff;
+    color: #6a7187 !important;
+    padding-left: 10px !important;
+    margin-top: 20px !important;
+}
+.expertise-fields .MuiInput-root.MuiInput-underline.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-fullWidth:before {
+    border: 0;
+}
+.expertise-fields .MuiInput-root.MuiInput-underline.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-fullWidth:after {
+    border: 0;
+}
+.topics-fields {
+    border-radius: 4px !important;
+    border: solid 1px #ced4da !important;
+    background: #fff;
+    color: #6a7187 !important;
+    padding-left: 10px !important;
+    margin-top: 20px !important;
+}
+.topics-fields .MuiInput-root.MuiInput-underline.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-fullWidth:before {
+    border: 0;
+}
+.topics-fields .MuiInput-root.MuiInput-underline.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-fullWidth:after {
+    border: 0; 
+}
+.tell-about .MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    margin-top: 20px;
+}
+.tell-about {
+    width: 100%;
+    height:100% !important;
+}
+.tell-txt {
+    border-radius: 4px !important;
+    border: solid 1px #ced4da !important;
+    background: #fff;
+    color: #6a7187 !important;
+    padding-left: 10px !important;
+    margin-top: 20px !important;
+    /* height: 165px; */
+}
+.tell-txt .MuiInput-root.MuiInput-underline.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-fullWidth:before {
+    border: 0;
+}
+.tell-txt .MuiInput-root.MuiInput-underline.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-fullWidth:after {
+    border: 0; 
+}
+.min-height {
+    min-height: 100%;
+}
+.min-height .MuiGrid-root.MuiGrid-item .MuiPaper-elevation {
+    min-height: 100%;
+}
+.account-form .MuiFormControl-root.MuiFormControl-fullWidth {
+    margin-top: 20px;
+}
+.account-form .MuiFormControl-root {
+    width: 100%;
+}
+.account-form input{
+    padding: 0px 0px 0px 10px;
+    font-size: 13px;
+    height: 36px;
+    border-radius: 4px;
+    border: solid 1px #ced4da;
+    background: #fff;
+    color: #6a7187;
+}
+.account-form .MuiInput-root.MuiInput-underline:before{
+    border-bottom: 0px !important;
+}
+.account-form .MuiInput-root.MuiInput-underline:after{
+    border-bottom: 0px !important;
+}
+textarea.info-txtarea {
+    margin-top: 20px;
+    padding: 0px 10px 0px 10px;
+    font-size: 13px;
+    border-radius: 4px;
+    border: solid 1px #ced4da;
+    background: #fff;
+    color: #6a7187;
+}
+.about-form .MuiFormControl-root {
+    width: 100%;
+}
+textarea.info-txtarea:focus {
+    outline: 0 !important;
+}
+.dis-flx {
+    display: flex;
+    justify-content: center;
+}
+.genrr-pass .input-group-text {
+    height: 100%;
+}
+.passwrd-teacher {
+    padding-left: 10px;
+}
+.create-account-section .genrr-pass .input-group input {
+    height: 30px;
+}
+.tag-input {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 48px;
+    padding: 0 8px;
+    border: 1px solid #d6d8da;
+    border-radius: 6px;
+    margin-top: 20px;
+  }
+  .tag-input input {
+    flex: 1;
+    border: none;
+    height: 46px;
+    font-size: 14px;
+    padding: 4px 0 0;
+  }
+  
+  .tag-input input:focus {
+    outline: transparent;
+  }
+  
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 8px 0 0;
+  }
+  
+  .tag {
+    width: auto;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 0 8px;
+    font-size: 14px;
+    list-style: none;
+    border-radius: 50px;
+    margin: 8px 8px 8px 0;
+    background: #82005e;
+  }
+  .tag-close-icon {
+    display: block;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 8px;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .topics-teach {
+    height: 100%;
+}
+.topics-section-area fieldset.MuiFormControl-root {
+    width: 100%;
+}
+.topics-section-area .MuiFormGroup-root label{
+    width: 100%;
+    margin-left: 0px;
+    border: 2px solid #b2b2b2;
+    padding: 5px 15px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+.topics-section-area .MuiFormGroup-root label:focus{
+    border-color: #f62f8a;
+}
+/* .topics-section-area label.MuiFormControlLabel-root.MuiFormControlLabel-labelPlacementEnd {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 0px;
+    border: 2px solid #b2b2b2;
+    padding: 5px 15px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+} */
+/* .topics-section-area label.MuiFormControlLabel-root.MuiFormControlLabel-labelPlacementEnd:focus {
+    border: 2px solid #f62f8a;
+} */
+/* .topics-section-area label.MuiFormControlLabel-root.MuiFormControlLabel-labelPlacementEnd:hover {
+    border: 2px solid #f62f8a;
+} */
+.add-new-user-btn{
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: inherit;
+    text-transform: Capitalize;
+    font-family: Rubik Regular;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    min-width: 64px;
+    padding: 6px 16px;
+    border-radius: 4px;
+    -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: #fff;
+    background-color: #82005e;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+.add-new-user-btn:hover{
+    color: #fff !important;
+text-decoration: none;
+    background-color: rgb(91, 0, 65);
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+.view-calender{
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: inherit;
+    text-transform: Capitalize;
+    font-family: Rubik Regular;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    min-width: 64px;
+    padding: 6px 16px;
+    border-radius: 4px;
+    -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: #fff;
+    background-color: #82005e;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);  
+}
+.view-calender:hover{
+    color: #fff !important;
+text-decoration: none;
+    background-color: rgb(91, 0, 65);
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+.recent-transactions {
+    border-collapse: unset;
+    border-spacing: 0;
+}
+.add-new-user-btn:hover {
+    color: #fff !important;
+}
+.recent-user-dash .recent-users {
+    padding: 16px !important;
+}
+.recent-transactions{
+    padding: 16px !important;
+}
+.gender-list .MuiSelect-select.MuiSelect-standard:focus {
+    background: #fff !important;
+}
+.wdth-all .MuiFormControl-root {
+    width: 100%;
+}
+section.profile-cnt {
+    min-height: 100vh;
+}
+section.profile-cnt .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded{
+    height:100%;
+}
+.add-image-profile .MuiAvatar-root.MuiAvatar-circular {
+    width: 120px;
+    height: 120px;
+}
+.add-image-profile {
+    align-items: center !important;
+}
+.states-list{
+    border-radius: 4px;
+    border: solid 1px #ced4da;
+    background-color: #fff;
+    padding: 0px 0px 0px 0px;
+    height: 36px;
+}
+.states-list .MuiSelect-select.MuiSelect-standard {
+    font-size: 13px;
+    padding-left: 5px;
+}
+.states-list .MuiSelect-select.MuiSelect-standard.MuiInput-input.MuiInputBase-input:focus {
+    background: #fff;
+}
+.profile-info-form input {
+    border-radius: 4px;
+    border: solid 1px #ced4da;
+    background-color: #fff;
+    font-size: 13px;
+    padding: 0px 0px 0px 10px;
+    height: 34px;
+}
+.profile-info-form .MuiFormControl-root {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.profile-info-form .MuiInput-root.MuiInput-underline {
+    margin-top: 20px;
+}
+.profile-info-form .MuiInput-root.MuiInput-underline:before {
+    border-bottom: 0px !important;
+}
+.profile-info-form .MuiInput-root.MuiInput-underline:after {
+    border-bottom: 0px !important;
+}
+.tag-topic-input {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 48px;
+    padding: 0 8px;
+    border: 1px solid #d6d8da;
+    border-radius: 6px;
+    margin-top: 20px;
+  }
+  
+  .tag-topic-input input {
+    flex: 1;
+    border: none;
+    height: 46px;
+    font-size: 14px;
+    padding: 4px 0 0;
+  }
+  
+  .tag-topic-input input:focus {
+    outline: transparent;
+  }
+  
+  .tags-topic {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 8px 0 0;
+  }
+  
+  .tag-topic {
+    width: auto;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 0 8px;
+    font-size: 12px;
+    list-style: none;
+    border-radius: 50px;
+    margin: 0px 2px 2px 0;
+    background: #6a7187;
+  }
+  .tag-topic-close-icon {
+    display: block;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 8px;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  a.add-new-user-btn svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+a.add-new-user-btn:focus{
+    color: #fff; 
+}
+a.switch-btn:focus {
+    color: #fff;
+}
+.dob-user input {
+    border: 0;
+}
+.dob-user .MuiFormControl-root.MuiTextField-root {
+    margin-top: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+.dob-user fieldset.MuiOutlinedInput-notchedOutline {
+    border: 0;
+}
+.react-date-picker.react-date-picker--closed.react-date-picker--enabled {
+    margin-top: 20px !important;
+}
+.react-date-picker__inputGroup input {
+    border: 0px !important;
+}
+.react-date-picker__inputGroup input:focus-visible {
+    outline: 0px solid;
+}
+.react-date-picker.react-date-picker--open.react-date-picker--enabled {
+    margin-top: 20px !important;
+}
+.react-date-picker__inputGroup__input:invalid {
+    background: transparent !important;
+}
+.react-date-picker__wrapper {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    border: 1px solid #ced4da;
+}

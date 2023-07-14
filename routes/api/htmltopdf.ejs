@@ -1,0 +1,129 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+    xmlns:o="urn:schemas-microsoft-com:office:office">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>*|MC:SUBJECT|*</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <style type="text/css">
+        p{
+            color: #495057;
+            font-size: 13px;
+        }
+
+    </style>
+    <%
+    tConvert = function(time) {
+      time = time.toString ().match (/^([01]\d|2[0-3])(:)([0-5]\d)?$/) || [time];
+    
+      if (time.length > 1) { // If time format correct
+        time = time.slice (1);  // Remove full string match value
+        time[5] = +time[0] < 12 ? ' AM' : ' PM'; // Set AM/PM
+        time[0] = +time[0] % 12 || 12; // Adjust hours
+      }
+      return time.join (''); // return adjusted time or original string
+    }
+    %>
+</head>
+
+
+<body>
+    <div class="content-body" style="width: 100%; background-color: #fff;">
+        <div id="invoice-template" class="invoice-template file-export" style="padding:0 30px; background-color: #fff;">
+          <div style="min-height: 680px;">
+            <div style="min-width: 600px">
+              <header style="border-bottom: 1px solid #495057;padding-bottom: 10px;padding-top: 20px;overflow: hidden;">
+                <div>
+                    <div style="width: 50%;float: left;">
+                        <img class="student_logo" src="data:image/png;base64,<%- logo%>" alt="logo" style="padding: 7px 16px;">
+                   </div>
+                   <div style="width: 50%;float: right;">
+                    <p style="margin-top: 25px;margin-right:12px;text-align: right;font-family: Arial, Helvetica, sans-serif;"><b>Transaction #<%- invoice_id %></b></p>
+                   </div>
+                  </div>
+              </header>
+              <main style="padding-bottom:50px;">
+                <div style="margin: 20px 0;min-height: 100px;">
+                  <div style="width: 100%;float: left;font-family: Arial, Helvetica, sans-serif;">
+                    <p><b>Billed To :</b></p>
+                    <p><%- user_name %></p>
+                    <p><%- street_address %></p>
+                    <p><%- city %></p>
+                    <p><%- state %>, <%- zip_code %></p>
+                  </div>
+                  <!-- <div style="text-align: right;width: 50%;float: right; ">
+                    <h1 style="margin-top: 0;color: #8685d8;">INVOICE #<%- invoice_id %></h1>
+                    <div>Date of Invoice: <%- billing_date%></div>
+                  </div> -->
+                </div>
+                <br>
+                <div style="margin: 20px 0;min-height: 100px;">
+                    <div style="width: 50%;float: left;font-family: Arial, Helvetica, sans-serif;">
+                      <p><b>Payment Method :</b></p>
+                      <p><%- card_type %> ending **** <%- card_last_digits %></p>
+                    </div>
+                    <div style="text-align: right;width: 50%;float: right;font-family: Arial, Helvetica, sans-serif; ">
+                      <p><b>Transaction Date :</b></p>
+                      <p><%- billing_date%></p>
+                    </div>
+                  </div>
+                  <div style="margin: 20px 0;">
+                    <div style="width: 100%;float: left;font-family: Arial, Helvetica, sans-serif;">
+                      <p><b>Order summary</b></p>
+                    </div>
+                  </div>
+                <table border="0" cellspacing="0" cellpadding="0" style="width: 100%;border-collapse: collapse;border-spacing: 0;">
+                  <thead>
+                    <tr>
+                      <th style="font-family: Arial, Helvetica, sans-serif;text-align: left;width: 55%;">
+                        <p>Description</p>
+                      </th>
+                      <th style="font-family: Arial, Helvetica, sans-serif;text-align: left;width: 15%;">
+                        <p>Date and Time</p>
+                      </th>
+                      <th style="font-family: Arial, Helvetica, sans-serif;text-align: left;width: 15%;">
+                        <p>Amount</p>
+                      </th>
+                      <th style="font-family: Arial, Helvetica, sans-serif;text-align: left;width: 15%;">
+                        <p>Payout Status</p>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td style="font-family: Arial, Helvetica, sans-serif;">
+                        <p><%- class_title %></p>
+                      </td>
+                      <td style="font-family: Arial, Helvetica, sans-serif;">
+                        <% for(let i = 0; i < classDetailData.length; i++) { %>
+                          <p><%- classDetailData[i].class_date %><br> <%- tConvert(classDetailData[i].start_time_of_class) %></p>
+                          <% } %>
+                        
+                      </td>
+                      <td style="font-family: Arial, Helvetica, sans-serif;">
+                        <p>$ <%- class_price %></p>
+                      </td>
+                      <td style="font-family: Arial, Helvetica, sans-serif;">
+                        <p>Processed</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+         
+              </main>
+            </div>
+          </div>
+        </div>
+        <div id="invoice-editor"></div>
+      </div>
+</body>
+
+
+</html>

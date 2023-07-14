@@ -1,0 +1,44 @@
+section.notification-page {
+    min-height: 100vh;
+}
+.notification-table thead {
+    background: rgb(106 113 135 / 20%);
+}
+.notification-table thead tr th span {
+    font-family: 'Rubik Regular';
+    font-size: 13px;
+    color: #495057;
+    font-weight: 500;
+}
+.table.notification-table {
+    border-collapse: unset;
+    border-spacing: 0;
+}
+.table.notification-table tr td {
+    color: #495057;
+    font-size: 13px;
+    font-family: 'Rubik Regular';
+}
+.notification-table tr td {
+    vertical-align: middle;
+}
+.notification-table tr td p {
+    margin-bottom: 0px;
+}
+.table.notification-table thead tr th:nth-child(3) {
+    text-align: right;
+}
+.table.notification-table tbody tr td:nth-child(3) {
+    text-align: right;
+}
+.accrd-notify-section div#panel1a-header {
+    background: rgb(106 113 135 / 15%);
+    height: 64px;
+}
+.accrd-notify-section .MuiAccordionSummary-content p {
+    color: rgba(0, 0, 0, 0.54);
+}
+.accrd-notify-section div#panel2a-header {
+    background: rgb(106 113 135 / 15%);
+    height: 64px;
+}

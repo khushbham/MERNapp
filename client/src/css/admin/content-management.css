@@ -1,0 +1,86 @@
+.content-dash-tabs button {
+    text-transform: uppercase;
+    font-family: 'Rubik Medium';
+}
+.page-tab-section #simple-tabpanel-0 .MuiBox-root {
+    padding: 0px;
+}
+.page-search-field {
+    width: 100%;
+}
+.page-search-field .MuiInputBase-root.MuiInputBase-formControl {
+    width: 100%;
+}
+.filtertype-pagestatus {
+    margin-top: 20px;
+}
+.filtertype-pagestatus .MuiSelect-select.MuiSelect-outlined.MuiOutlinedInput-input {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    height: 36px;
+    border-radius: 4px;
+    border: solid 1px #ced4da;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    color: #6a7187;
+}
+.filter-page-slct .MuiFormControl-root.css-1nrlq1o-MuiFormControl-root {
+    width: 100%;
+}
+.filtertype-pagestatus fieldset.MuiOutlinedInput-notchedOutline {
+    border-style: hidden;
+}
+.top-btm {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+.srch-fltr svg {
+    color: rgb(60 59 59 / 60%);
+}
+.table-pagelist {
+    padding: 0px 15px !important;
+}
+.page-list-table thead {
+    background: rgb(106 113 135 / 20%);
+}
+.page-list-table {
+    border-collapse: inherit;
+    border-spacing: 0;
+}
+.page-list-table thead tr th span {
+    font-family: 'Rubik Regular';
+    font-size: 13px;
+    color: #495057;
+    font-weight: 500;
+}
+.page-list-table thead tr th:nth-child(3) {
+    text-align: right;
+}
+.page-list-table tr td {
+    color: #495057;
+    font-size: 13px;
+    font-family: 'Rubik Regular';
+}
+.page-list-table tr td p {
+    margin-bottom: 0px;
+}
+.page-list-table tr td {
+    vertical-align: middle;
+}
+.table-pagelist {
+    min-height: 100vh;
+}
+.pages-content-section{
+    min-height: 100vh;
+    margin-bottom: 90px;
+}
+button.spacing-right {
+    margin-right: 15px;
+}
+.tags-details .MuiBox-root {
+    padding: 0px !important;
+}
+.page-list-table {
+    padding-top: 16px;
+}

@@ -1,0 +1,307 @@
+/* Dashboard page content   */
+/* New Css */
+.tgl-side-right ul li a {
+    color: #495057;
+    text-decoration: none;
+    font-family: 'Rubik Regular';
+    font-size: 13px;
+}
+.side-calender .Calendar{
+    box-shadow: none;
+    background: #fff;
+    width: 100% !important;
+}
+.admin-footer{
+    background: #f2f2f5;
+}
+/*
+  These :not() selectors are for preventing
+  style conflicts with a selected date. You can remove them if you wish!
+*/
+
+.activeDay:not(.-selectedStart):not(.-selectedBetween):not(.-selectedEnd):not(.-selected) {
+    color: #82005e !important;
+  }
+/*  */
+
+
+.wht-bckgr {
+    background: #fff;
+    padding: 32px 19px 32px 19px;
+    border-radius: 4px;
+    box-shadow: 0 10px 20px 0 rgb(18 38 63 / 3%);
+}
+h4.page-titles {
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #495057;
+    text-transform: uppercase;
+    font-family: 'Rubik Bold';
+    margin-bottom: 26px;
+}
+.img-bxx {
+    display: inline-flex;
+    align-items: center;
+}
+.user-img {
+    width: 40px;
+    height: 40px;
+}
+.user-img img {
+    width: 100%;
+    height: 100%;
+}
+.user-info h4 {
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    font-family: 'Rubik Bold';
+    color: #495057;
+}
+
+.user-info p {
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    font-family: 'Rubik Regular';
+    color: #495057;
+    margin-bottom: 0px;
+}
+.user-info {
+    margin-left: 10px;
+}
+h4.sect-titles {
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    font-family: 'Rubik Bold';
+    color: #495057;
+    margin-bottom: 0px;
+}
+table.user-table thead {
+    background: #49505721;
+}
+table.user-table{
+    border-collapse: unset !important;
+    border-spacing: 0px;
+    margin-bottom: 0px;
+}
+table.user-table.table thead th {
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    font-family: 'Rubik Regular';
+    color: #4950578c !important;
+}
+table.user-table tbody td {
+    font-size: 13px;
+}
+.eye-btn {
+    background: #fff !important;
+    border: 0;
+    padding: 0px !important;
+}
+.eye-btn svg {
+    width: 24px;
+    height: 18px;
+}
+.eye-btn svg path {
+    color: #4950578c !important;
+}
+.eye-btn svg circle {
+    color: #4950578c !important;
+}
+button.view-btn {
+    background: #82005e;
+    border-radius: 50px;
+    display: block;
+    margin-left: 10px;
+    padding: 10px 18px;
+    text-transform: capitalize;
+    font-family: 'Rubik Medium';
+}
+button.view-btn-transct {
+    background: #82005e;
+    border-radius: 50px;
+    display: block;
+    margin-left: 10px;
+    padding: 10px 18px;
+    text-transform: capitalize;
+    font-family: 'Rubik Medium';
+}
+.edit-btn {
+    background-color: #fff !important;
+    border: 0;
+    padding: 0px;
+}
+.edit-btn svg path{
+    color:#4950578c !important;
+}
+.cross-btn {
+    background-color: #fff !important;
+    border: 0;
+    padding: 0px;
+}
+.cross-btn svg circle{
+    color:#4950578c !important;
+}
+.cross-btn svg line{
+    color:#4950578c !important;
+}
+.edit-btn svg {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+.cross-btn svg {
+    height: 25px;
+    width: 25px;
+}
+.edit-btn:focus {
+    box-shadow: none;
+}
+.cross-btn:focus {
+    box-shadow: none;
+}
+.img-user {
+    width: 40px;
+    height: 40px;
+}
+.tbl-user {
+    align-items: center;
+}
+.img-user img {
+    border-radius: 50%;
+}
+.img-user {
+   margin-right: 20px;
+}
+.info-user h4 {
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    font-family: 'Rubik Bold';
+    color: #495057b8;
+    margin-bottom: 0px;
+}
+.info-user p {
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    font-family: 'Rubik Regular';
+    color: #495057;
+    margin-bottom: 0px;
+}
+td.desc-tbl {
+    font-size: 13px;
+}
+table.user-table.table td {
+    font-family: 'Rubik Regular' !important;
+}
+.rght-calender-secton h4 {
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    font-family: 'Rubik Bold';
+}
+button.view-calender {
+    background: #82005e;
+    border: 1px solid #82005e;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+    margin-left: 10px;
+}
+h4.right-title {
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    font-family: 'Rubik Regular';
+}
+/* .prf-img-dash {
+    width: 48px;
+    height: 48px;
+} */
+/* .prf-img-dash img {
+    border-radius: 50%;
+}
+.user-img img {
+    border-radius: 50%;
+} */
+.upcoming-section {
+    padding: 20px 0px 0px 10px;
+}
+select.selcton {
+    display: block;
+    background: #647798;
+    border-color:#647798;
+    color: #fff;
+    padding: 10px 10px 10px 12px;
+    margin-left: 7px;
+    border-radius: 50px;
+}
+/* calender css */
+.rght-calender-secton button.react-calendar__navigation__arrow.react-calendar__navigation__prev2-button {
+    display: none;
+} 
+.rght-calender-secton button.react-calendar__navigation__arrow.react-calendar__navigation__next2-button{
+    display: none;
+}
+.react-calendar__tile--now{
+    background: #fff;
+}
+.rght-calender-secton {
+    border-radius: 4px;
+    box-shadow: 0 10px 20px 0 rgb(18 38 63 / 3%);
+    background-color: #fff !important;
+}
+.rght-calender-secton .react-calendar {
+    border: 0;
+}
+.rght-calender-secton .Calendar {
+    width: 100%;
+}
+
+/* header css */
+button.chat-top-button {
+    background: unset;
+    border: 0;
+    padding-left: 0px;
+}
+button.gear-top-button{
+    background: unset;
+    border: 0;
+}
+.admin-header{
+    background: #fff;
+}
